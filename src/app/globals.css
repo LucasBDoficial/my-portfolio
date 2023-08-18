@@ -16,13 +16,13 @@
 
   html,
   body {
-    height: 100vh;
-    width: 100vw;
     text-rendering: optimizelegibility;
     -webkit-font-smoothing: antialiased;
   } 
 
   body {
+    height: 100vh;
+    overflow: hidden;
     font-size: 1.6rem;
     color: rgb(var(--foreground-rgb));
     background: linear-gradient(
@@ -47,6 +47,16 @@
           font-size: 100%;
       }
   }
+
+  .ld{
+    color: rgb(var(--theme-font-rgb));
+  }
+
+  .ims{
+    background-image: var(--moon-sun-image);
+    background-color: rgb(var(--foreground-rgb));
+    background-size: 80%;
+  }
 }
 
 :root {
@@ -54,11 +64,13 @@
   --foreground-rgb: 255, 255, 255;
   --background-start-rgb: 30, 30, 30;
   --background-end-rgb: 1, 24, 61;
+  --moon-sun-image: url(/sun-fill.svg)
 }
 
 .ligth {
-  --theme-font-rgb: 11, 67, 170;
+  --theme-font-rgb: 25, 70, 175;
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 218, 228, 233;
   --background-end-rgb: 198, 129, 87;
+  --moon-sun-image: url(/moon-fill.svg)
 }
