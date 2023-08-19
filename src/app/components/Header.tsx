@@ -14,7 +14,7 @@ function toggleMode() {
 export function Header(){
     return(
 
-        <motion.div className="relative
+        <motion.div className="relative z-10
         max-sm:-mt-4 max-sm:space-y-5 max-sm:flex max-sm:flex-col max-sm:place-items-center"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1, y: 30 }}
@@ -24,7 +24,7 @@ export function Header(){
         }} >
 
             <a href="">
-                <h1 className="text-4xl absolute left-52 
+                <h1 className="text-4xl absolute left-52 font-semibold
                 max-sm:static" >
                 Lucas Bucalon</h1></a>
 

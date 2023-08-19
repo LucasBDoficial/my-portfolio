@@ -5,6 +5,7 @@ import { ReactNode } from 'react';
 import type { Metadata } from 'next';
 
 import { Header } from '@/app/components/Header'
+import { Navbar } from './components/Navbar';
 
 const montserrat = Montserrat({ subsets: ['latin'] })
 
@@ -35,6 +36,7 @@ export default function RootLayout({children,}:{children: ReactNode}) {
       <body className={montserrat.className}>
         <header>
             <Header />
+            <Navbar />
         </header>
         {children}</body>
     </html>
