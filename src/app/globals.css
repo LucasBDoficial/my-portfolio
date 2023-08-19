@@ -12,17 +12,18 @@
 
   html {
     font-size: 62.5%;
+    overflow: hidden;
   }
 
   html,
   body {
-    overflow-x: hidden;
     height: 100vh;
     text-rendering: optimizelegibility;
     -webkit-font-smoothing: antialiased;
   } 
 
   body {
+    position: relative;
     font-size: 1.6rem;
     color: rgb(var(--foreground-rgb));
     background: linear-gradient(
@@ -34,6 +35,12 @@
 
   span {
     color: rgb(var(--theme-font-rgb));
+  }
+
+  @media (max-width: 1024px) {
+    html{
+        overflow-y: scroll;
+    }
   }
 
   @media (max-width: 768px) {

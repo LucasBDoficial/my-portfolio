@@ -5,7 +5,7 @@ import { motion} from "framer-motion";
 export function Navbar() {
 
     return(
-        <motion.nav id="mov" className="fixed right-0 flex h-full items-center mr-[15px] 
+        <motion.nav className="fixed right-0 flex h-full items-center mr-[15px] z-[90]
             max-sm:block max-sm:h-0 max-sm:w-full max-sm:bottom-[34px] max-sm:mr-0"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1, y:[30, 0]}}
@@ -14,7 +14,7 @@ export function Navbar() {
             delay: 0.5,
             }} > 
 
-            <ul className="old py-11 px-2 rounded-full flex flex-col space-y-8 min-mt-90 max-lg:mt-[120px] max-[768px]:mt-0
+            <ul className="old py-11 px-2 rounded-full flex flex-col space-y-8 min-mt-90 
                 max-sm:rounded-none max-sm:flex-row max-sm:py-2 max-sm:justify-center max-sm:px-0 max-sm:space-y-0 max-sm:space-x-8">
 
                 <a href="/" className="group items-center flex" >           
