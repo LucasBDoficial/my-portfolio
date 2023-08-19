@@ -24,7 +24,7 @@ export function Header(){
         }} >
 
             <a href="">
-                <h1 className="text-4xl absolute left-52 font-semibold
+                <h1 className="text-4xl absolute left-52 font-semibold 
                 max-sm:static" >
                 Lucas Bucalon</h1></a>
 
@@ -53,7 +53,7 @@ export function Header(){
 
             </div>
 
-            <motion.button className="absolute -mt-2 right-9 w-12 h-12 ims bg-no-repeat bg-center rounded-full cursor-pointer;
+            <motion.button className="absolute -mt-2 right-9 w-12 h-12 ims bg-no-repeat bg-center rounded-full cursor-pointer
                 max-sm:-top-5"
                 onClick={toggleMode}
                 whileHover={{ scale: 1.2 }} />

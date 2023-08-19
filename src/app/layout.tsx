@@ -4,7 +4,7 @@ import { Montserrat } from 'next/font/google';
 import { ReactNode } from 'react';
 import type { Metadata } from 'next';
 
-import { Header } from '@/app/components/Header'
+import { Header } from '@/app/components/Header';
 import { Navbar } from './components/Navbar';
 
 const montserrat = Montserrat({ subsets: ['latin'] })
@@ -26,11 +26,12 @@ export default function RootLayout({children,}:{children: ReactNode}) {
         <link rel="author" href="" />
 
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="index, nofollow" />
 
-        <link rel="dns-prefetch" href="" /> 
-        <link rel="preconnect" href="" />
+        <link rel="dns-prefetch" href="http://www.w3.org/2000/svg" /> 
+        <link rel="preconnect" href="http://www.w3.org/2000/svg" />
+        <link rel="dns-prefetch" href="https://icon-sets.iconify.design/" /> 
+        <link rel="preconnect" href="https://icon-sets.iconify.design/" />
       </head>
 
       <body className={montserrat.className}>

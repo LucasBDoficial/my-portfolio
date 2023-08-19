@@ -16,14 +16,13 @@
 
   html,
   body {
+    overflow-x: hidden;
     height: 100vh;
     text-rendering: optimizelegibility;
     -webkit-font-smoothing: antialiased;
   } 
 
-  body {  
-    position: relative;
-    overflow: hidden;
+  body {
     font-size: 1.6rem;
     color: rgb(var(--foreground-rgb));
     background: linear-gradient(
