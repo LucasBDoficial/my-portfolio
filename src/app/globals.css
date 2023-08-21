@@ -8,11 +8,11 @@
     padding: 0;
     outline: 0;
     box-sizing: border-box;
-  }
+  } 
 
   html {
     font-size: 62.5%;
-    overflow: hidden;
+    overflow-x: hidden;
   }
 
   html,
@@ -37,9 +37,9 @@
     color: rgb(var(--theme-font-rgb));
   }
 
-  @media (max-width: 1024px) {
+  @media (min-width: 2560px) {
     html{
-        overflow-y: scroll;
+        font-size: 100%;
     }
   }
 
@@ -48,13 +48,15 @@
         font-size: 50%;
     }
   }
-  
-  @media (min-width: 2560px) {
-    html{
-        font-size: 100%;
+
+  @media (max-width: 320px) {
+    html,
+     body{
+        height: 150vh;
+        font-size: 45%;
     }
   }
-
+  
   .ld{
     color: rgb(var(--theme-font-rgb));
     transition: 0.3s;
@@ -78,6 +80,38 @@
   .trans{
     transition: 0.5s;
   }
+
+  .bgi{
+    display: none;
+  }
+
+  .sun,.moon{
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background: linear-gradient(
+      to right top, 
+      rgb(var(--foreground-rgb)), 
+      rgb(var(--astro-rgb))50%
+      )
+  }
+
+  .moon2{
+    right: 0;
+    top: 0;
+    background: rgb(1, 24, 61);
+    transform: translate3d(75px, -75px, 0) scale(0.9);
+  }
+
+  .moon{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: rgb(1, 24, 61);
+    transform: translate3d(10px, -10px, 0) scale(0.9);
+    transition: transform .1s;
+  }
 }
 
 :root {
@@ -87,7 +121,8 @@
   --foreground-rgba: 255, 255, 255, 0.20;
   --background-start-rgb: 30, 30, 30;
   --background-end-rgb: 1, 24, 61;
-  --moon-sun-image: url(/sun-fill.svg)
+  --astro-rgb: 0,0,255;
+  --moon-sun-image: url(/sun-fill.svg);
 }
 
 .ligth {
@@ -97,5 +132,6 @@
   --foreground-rgba: 0, 0, 0, 0.20;
   --background-start-rgb: 218, 228, 233;
   --background-end-rgb: 198, 129, 87;
-  --moon-sun-image: url(/moon-fill.svg)
+  --astro-rgb: 255, 117, 0;
+  --moon-sun-image: url(/moon-fill.svg);
 }
