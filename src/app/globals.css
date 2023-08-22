@@ -81,10 +81,6 @@
     transition: 0.5s;
   }
 
-  .bgi{
-    display: none;
-  }
-
   .sun,.moon{
     position: relative;
     width: 10rem;
@@ -125,7 +121,7 @@
   --moon-sun-image: url(/sun-fill.svg);
 }
 
-.ligth {
+.light {
   --theme-font-rgb: 25, 70, 175;
   --foreground-rgb: 0, 0, 0;
   --foreground-rv-rgb: 255, 255, 255;

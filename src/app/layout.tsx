@@ -34,7 +34,7 @@ export default function RootLayout({children,}:{children: ReactNode}) {
         <link rel="preconnect" href="https://icon-sets.iconify.design/" />
       </head>
 
-      <body className={montserrat.className}>
+      <body className={montserrat.className} >
         <header>
             <Header />
             <Navbar />

@@ -1,11 +1,14 @@
 "use client";
 import { motion } from "framer-motion";
-
 import Image from "next/image";
+import ParticlesBlue from "./components/ParticlesBlue";
+import ParticlesOrange from "./components/ParticlesOrange";
+import  ButtonMode  from "./components/ButtonMode"
 
 export default function Home() {
   return (
-    <motion.main className="flex pt-[30px] 
+
+    <motion.main className="flex
                 max-[900px]:flex-wrap max-[900px]:h-0 max-[900px]:justify-items-start"
 
       initial={{ opacity: 0 }}
@@ -17,26 +20,26 @@ export default function Home() {
     }> 
 
       <Image src="/images/home2.png" alt="1223" width={200} height={200} 
-        className="absolute top-0 right-0"/>
+        className="absolute top-0 right-0 z-0"/>
 
-      <div className="w-[50%] relative flex flex-col justify-center max-[900px]:w-full">     
+      <div className="w-[50%] relative flex flex-col justify-center mt-[30px] max-[900px]:w-full">     
 
           <Image src="/images/home1.png" alt="1223" width={550} height={550} 
             className="absolute z-0 ml-[25%] mt-[30px]"/>
     
           <Image src="/images/perfil.png" alt="1223" width={470} height={470} 
-            className="relative m-auto" id="image1"/>
+            className="relative m-auto z-20" id="image1"/>
 
           <Image src="/images/perfil2.png" alt="1223" width={470} height={470} 
-            className="relative m-auto bgi" id="image2"/>
+            className="relative m-auto hidden z-20" id="image2"/>
             
-          <div className="sun old m-auto mt-[-20px]">
+          <div className="sun old m-auto mt-[-20px] z-20 ">
             <samp id="sun" className="moon"></samp>
           </div>
 
       </div>
 
-      <div className="w-[50%] flex justify-center items-center mr-[5%] mt-[40px]
+      <div className="w-[50%] flex justify-center items-center mr-[5%] mt-[40px] z-20
           max-[900px]:w-full max-[900px]:items-start max-[900px]:mr-[0] ">
 
         <div className="absolute text-center">
@@ -50,6 +53,43 @@ export default function Home() {
         </div>
       </div>
 
+      <ParticlesBlue /> 
+      <ParticlesOrange />
+
+      <div onClick={toggleMode}><ButtonMode /></div>
     </motion.main>
   )
+}
+
+function toggleMode(){
+  const html = document.documentElement
+  html.classList.toggle("light")
+
+  const sun = document.querySelector('#sun')
+  const img1 = document.querySelector('#image1')
+  const img2 = document.querySelector('#image2')
+  const tspb = document.querySelector('#tspb')
+  const tspo = document.querySelector('#tspo')
+
+       if(html.classList.contains("light")){
+       
+          sun.classList.remove('moon')
+          sun.classList.add('moon2')
+
+          img1.classList.add('hidden')
+          img2.classList.remove('hidden')
+
+          tspb.classList.add('hidden')
+          tspo.classList.remove('hidden')
+          
+      }else{            
+              
+          sun.classList.add('moon')
+
+          img1.classList.remove('hidden')
+          img2.classList.add('hidden')
+
+          tspb.classList.remove('hidden')
+          tspo.classList.add('hidden')
+      }
 }
