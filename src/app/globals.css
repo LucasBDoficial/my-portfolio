@@ -43,9 +43,21 @@
     }
   }
 
+  @media (max-width: 844px) {
+    html,
+     body{
+        height: 230vh;
+    }
+  }
+
   @media (max-width: 768px) {
     html{
         font-size: 50%;
+    }
+
+    html,
+     body{
+        height: 100vh;
     }
   }
 
@@ -72,13 +84,18 @@
     background-color: rgba(var(--foreground-rgba));
   }
 
+  .select{
+    color: rgba(var(--theme-font-rgb));
+    border-bottom: 1px solid rgba(var(--theme-font-rgb));
+  }
+
   .bgb{
     background-color: rgb(var(--foreground-rgb));
     color: rgb(var(--foreground-rv-rgb));
   }
 
   .trans{
-    transition: 0.5s;
+    background: rgba(var(--foreground-about-rgba));
   }
 
   .sun,.moon{
@@ -115,6 +132,7 @@
   --foreground-rgb: 255, 255, 255;
   --foreground-rv-rgb: 0, 0, 0;
   --foreground-rgba: 255, 255, 255, 0.20;
+  --foreground-about-rgba: 0, 0, 0, 0.05;
   --background-start-rgb: 30, 30, 30;
   --background-end-rgb: 1, 24, 61;
   --astro-rgb: 0,0,255;
@@ -126,6 +144,7 @@
   --foreground-rgb: 0, 0, 0;
   --foreground-rv-rgb: 255, 255, 255;
   --foreground-rgba: 0, 0, 0, 0.20;
+  --foreground-about-rgba: 255, 255, 255, 0.05;
   --background-start-rgb: 218, 228, 233;
   --background-end-rgb: 198, 129, 87;
   --astro-rgb: 255, 117, 0;

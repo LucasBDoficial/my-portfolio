@@ -19,18 +19,18 @@ export default function Home() {
       }
     }> 
 
-      <Image src="/images/home2.png" alt="1223" width={200} height={200} 
+      <Image src="/images/home2.png" alt="imagem de tinta" width={200} height={200} 
         className="absolute top-0 right-0 z-0"/>
 
       <div className="w-[50%] relative flex flex-col justify-center mt-[30px] max-[900px]:w-full">     
 
-          <Image src="/images/home1.png" alt="1223" width={550} height={550} 
+          <Image src="/images/home1.png" alt="image de tinta" width={550} height={550} 
             className="absolute z-0 ml-[25%] mt-[30px]"/>
     
-          <Image src="/images/perfil.png" alt="1223" width={470} height={470} 
+          <Image src="/images/perfil.png" alt="foto de perfil" width={470} height={470} 
             className="relative m-auto z-20" id="image1"/>
 
-          <Image src="/images/perfil2.png" alt="1223" width={470} height={470} 
+          <Image src="/images/perfil2.png" alt="foto de perfil" width={470} height={470} 
             className="relative m-auto hidden z-20" id="image2"/>
             
           <div className="sun old m-auto mt-[-20px] z-20 ">
@@ -73,23 +73,23 @@ function toggleMode(){
 
        if(html.classList.contains("light")){
        
-          sun.classList.remove('moon')
-          sun.classList.add('moon2')
+          sun?.classList.remove('moon')
+          sun?.classList.add('moon2')
 
-          img1.classList.add('hidden')
-          img2.classList.remove('hidden')
+          img1?.classList.add('hidden')
+          img2?.classList.remove('hidden')
 
-          tspb.classList.add('hidden')
-          tspo.classList.remove('hidden')
+          tspb?.classList.add('hidden')
+          tspo?.classList.remove('hidden')
           
       }else{            
               
-          sun.classList.add('moon')
+          sun?.classList.add('moon')
 
-          img1.classList.remove('hidden')
-          img2.classList.add('hidden')
+          img1?.classList.remove('hidden')
+          img2?.classList.add('hidden')
 
-          tspb.classList.remove('hidden')
-          tspo.classList.add('hidden')
+          tspb?.classList.remove('hidden')
+          tspo?.classList.add('hidden')
       }
 }

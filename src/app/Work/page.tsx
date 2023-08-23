@@ -1,4 +1,4 @@
-export default function Work(){
+export default function About(){
     return(
         <>work</>
     )
