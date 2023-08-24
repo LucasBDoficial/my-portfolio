@@ -18,7 +18,7 @@ export default function About(){
     }>
 
         <Image src="/images/about.png" alt="imagem de tinta" width={10000} height={0} 
-                className=" absolute bottom-0 w-full z-0 animate-pulse "/>
+                className=" absolute bottom-0 w-full min-[500px]:h-[200px] z-0 animate-pulse "/>
 
         <div className="flex flex-wrap absolute z-10 max-[900px]:flex-col">
 
