@@ -68,7 +68,7 @@
         font-size: 45%;
     }
   }
-  
+
   .ld{
     color: rgb(var(--theme-font-rgb));
     transition: 0.3s;
@@ -125,6 +125,14 @@
     transform: translate3d(10px, -10px, 0) scale(0.9);
     transition: transform .1s;
   }
+
+  .swiper .swiper-button-prev{ 
+    color: rgb(var(--theme-font-rgb))
+   }
+ 
+  .swiper .swiper-button-next{
+    color: rgb(var(--theme-font-rgb))
+   }
 }
 
 :root {
@@ -137,6 +145,7 @@
   --background-end-rgb: 1, 24, 61;
   --astro-rgb: 0,0,255;
   --moon-sun-image: url(/sun-fill.svg);
+  --swiper-pagination-color: #D06C2F;
 }
 
 .light {
@@ -149,4 +158,5 @@
   --background-end-rgb: 198, 129, 87;
   --astro-rgb: 255, 117, 0;
   --moon-sun-image: url(/moon-fill.svg);
+  --swiper-pagination-color: #1D46AC;
 }

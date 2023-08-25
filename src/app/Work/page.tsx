@@ -1,8 +1,8 @@
 "use client";
 import { motion } from "framer-motion";
-import { useState, useEffect, useRef } from "react";
 import  ButtonMode  from "../components/ButtonMode";
 import Image from "next/image";
+import Slider from "../components/Slider";
 
 export default function Work(){
 
@@ -25,42 +25,14 @@ export default function Work(){
                 className=" absolute bottom-0 right-0 z-0 animate-pulse "/>
 
             <div className="flex flex-wrap justify-center relative w-full">
-                <h2 className="px-[2%] font-black text-[3.5rem] mt-[100px]" >Meu trabalho é solucionar <span> PROBLEMAS </span></h2>
-                
 
+                <h2 className="px-[2%] font-black text-[3.5rem] mt-[100px] max-[844px]:mr-[50px] max-[768px]:mr-[0px] max-[768px]:text-center" >Meu trabalho é solucionar <span> PROBLEMAS </span></h2>
 
-
-
-
-                <div className="mx-auto flex justify-center mt-[50px]">
-
-                    <motion.div className="max-w-[100%] cursor-grab" whileTap={{ cursor: "grabbing"}}>
-
-                        <motion.div className="flex"
-                        drag="x"
-                        >                               
-                            <div id="box" className="flex w-full snap-start">
-                                <div id="box" className="min-w-[200px] min-h-[200px] bg-amber-500 mx-[20px]"></div>
-                                <div id="box" className="min-w-[200px] min-h-[200px] bg-amber-500 mx-[20px]"></div>
-                                <div id="box" className="min-w-[200px] min-h-[200px] bg-amber-500 mx-[20px]"></div>
-                            </div>
-
-                            {/* <div className="flex w-full">
-                                <div id="box" className="min-w-[200px] min-h-[200px] bg-amber-500 mx-[20px]"></div>
-                                <div id="box" className="min-w-[200px] min-h-[200px] bg-amber-500 mx-[20px]"></div>
-                                <div id="box" className="min-w-[200px] min-h-[200px] bg-amber-500 mx-[20px]"></div>
-                            </div>
-                              
-                            <div className="flex w-full">
-                                <div id="box" className="min-w-[200px] min-h-[200px] bg-amber-500 mx-[20px]"></div>
-                                <div id="box" className="min-w-[200px] min-h-[200px] bg-amber-500 mx-[20px]"></div>
-                                <div id="box" className="min-w-[200px] min-h-[200px] bg-amber-500 mx-[20px]"></div>
-                            </div> */}
-
-                        </motion.div>
-                    </motion.div>
-                </div>
-
+                <motion.div 
+                    className="w-[90%] cursor-grab mt-[30px]"
+                    whileTap={{cursor: "grabbing"}} >
+                    <Slider />
+                </motion.div>
             </div>
 
             <div onClick={toggleMode}><ButtonMode /></div>
