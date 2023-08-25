@@ -133,6 +133,39 @@
   .swiper .swiper-button-next{
     color: rgb(var(--theme-font-rgb))
    }
+
+  .swiper .swiper-pagination-bullet-active{
+    background-color: rgb(var(--theme-font-rgb))
+   }
+
+  #bullet .swiper .swiper-pagination-bullet-active{
+    background-color: rgb(var(--theme-font-rgb));
+    display: flex;
+    position: absolute;
+   }
+
+   .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }
 
 :root {
@@ -145,7 +178,6 @@
   --background-end-rgb: 1, 24, 61;
   --astro-rgb: 0,0,255;
   --moon-sun-image: url(/sun-fill.svg);
-  --swiper-pagination-color: #D06C2F;
 }
 
 .light {
@@ -158,5 +190,4 @@
   --background-end-rgb: 198, 129, 87;
   --astro-rgb: 255, 117, 0;
   --moon-sun-image: url(/moon-fill.svg);
-  --swiper-pagination-color: #1D46AC;
 }

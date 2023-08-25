@@ -26,7 +26,7 @@ export default function Work(){
 
             <div className="flex flex-wrap justify-center relative w-full">
 
-                <h2 className="px-[2%] font-black text-[3.5rem] mt-[100px] max-[844px]:mr-[50px] max-[768px]:mr-[0px] max-[768px]:text-center" >Meu trabalho é solucionar <span> PROBLEMAS </span></h2>
+                <h2 className="px-[2%] font-black text-[3.5rem] mt-[100px] max-[844px]:mr-[50px] max-[768px]:mr-[0px] max-[768px]:text-center" >Trabalhando em solucionar <span> PROBLEMAS </span></h2>
 
                 <motion.div 
                     className="w-[90%] cursor-grab mt-[30px]"

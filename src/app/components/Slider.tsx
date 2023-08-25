@@ -28,7 +28,7 @@ export default function Slider(){
             }} >
 
                 <SwiperSlide className="p-[50px] mx-auto">
-                    <div className="w-full min-h-[25rem] rounded-[20px] old p-[5%]">
+                    <div className="w-full min-h-[25rem] rounded-[20px] old p-[5%] ">
                     <svg xmlns="http://www.w3.org/2000/svg" width="4.8rem" height="4.8rem" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"><path d="M21 6H9a3 3 0 0 0-3 3v22a3 3 0 0 0 3 3h30a3 3 0 0 0 3-3V21M24 34v8"/><path d="m32 6l-4 4l4 4m6-8l4 4l-4 4M14 42h20"/></g></svg>
                         <p className='font-meduin text-[2rem] mt-[20px]'>Conhecimentos de <span>api’s e pluguins,</span> para aumentar as soluções de problemas, e ampliar os objetivos</p>
                     </div>
