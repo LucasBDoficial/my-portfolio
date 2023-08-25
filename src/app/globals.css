@@ -98,6 +98,14 @@
     background: rgba(var(--foreground-about-rgba));
   }
 
+  .feed{
+    border-radius: 0 0 20px 20px;
+    border-bottom: 90px solid transparent;
+    border-right: 60px solid transparent;
+    border-top: 60px solid rgba(var(--foreground-rgba));
+    border-left: 90px solid rgba(var(--foreground-rgba));
+  }
+
   .sun,.moon{
     position: relative;
     width: 10rem;
