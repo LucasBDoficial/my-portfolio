@@ -41,11 +41,11 @@ export function Navbar() {
                         <svg className="hover:ld"
                         xmlns="http://www.w3.org/2000/svg" width="3rem" height="3.1rem" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><rect width="18" height="14" x="3" y="3" rx="2"/><path d="M4 21h1m4 0h1m4 0h1m4 0h1"/></g></svg></a>
 
-                <a href="./Feedback" className="group items-center flex" >           
+                {/* <a href="./Feedback" className="group items-center flex" >           
                     <p className="absolute right-[54px] bgb py-1 px-2 rounded-md text-lg italic hidden sm:group-hover:flex z-10 group:">Comentário</p>
                     <i className="w-5 h-5 bgb rotate-45 rounded-md absolute right-[50px] hidden sm:group-hover:flex" /> 
                         <svg className="hover:ld"
-                        xmlns="http://www.w3.org/2000/svg" width="3rem" height="3.1rem" viewBox="0 0 24 24"><path fill="currentColor" d="M9 22c-.6 0-1-.4-1-1v-3H4c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2h-6.1l-3.7 3.7c-.2.2-.4.3-.7.3H9m1-6v3.1l3.1-3.1H20V4H4v12h6m6.3-10l-1.4 3H17v4h-4V8.8L14.3 6h2m-6 0L8.9 9H11v4H7V8.8L8.3 6h2Z"/></svg></a>
+                        xmlns="http://www.w3.org/2000/svg" width="3rem" height="3.1rem" viewBox="0 0 24 24"><path fill="currentColor" d="M9 22c-.6 0-1-.4-1-1v-3H4c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2h-6.1l-3.7 3.7c-.2.2-.4.3-.7.3H9m1-6v3.1l3.1-3.1H20V4H4v12h6m6.3-10l-1.4 3H17v4h-4V8.8L14.3 6h2m-6 0L8.9 9H11v4H7V8.8L8.3 6h2Z"/></svg></a> */}
 
                 <a href="./Contact" className="group items-center flex" >           
                     <p className="absolute right-[54px] bgb py-1 px-2 rounded-md text-lg italic hidden sm:group-hover:flex z-10 group:">Contato</p>

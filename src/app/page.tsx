@@ -79,8 +79,8 @@ function toggleMode(){
           img1?.classList.add('hidden')
           img2?.classList.remove('hidden')
 
-          tspb?.classList.add('hidden')
-          tspo?.classList.remove('hidden')
+          tspb?.classList.remove('hidden')
+          tspo?.classList.add('hidden')
           
       }else{            
               
@@ -89,7 +89,7 @@ function toggleMode(){
           img1?.classList.remove('hidden')
           img2?.classList.add('hidden')
 
-          tspb?.classList.remove('hidden')
-          tspo?.classList.add('hidden')
+          tspb?.classList.add('hidden')
+          tspo?.classList.remove('hidden')
       }
 }

@@ -15,7 +15,7 @@ export default function ParticlesBlue() {
 
     return (
         <Particles 
-        className="w-full h-[100%] max-[600px]:h-[95%] absolute translate-z-0 z-10"
+        className="w-full h-[100%] max-[600px]:h-[95%] absolute translate-z-0 z-10 hidden"
         id="tspb"
         init={particlesInit} 
         loaded={particlesLoaded}
@@ -51,10 +51,10 @@ export default function ParticlesBlue() {
             },
             particles: {
                 color: {
-                    value: '#7998CB',
+                    value: '#806192',
                 },
                 links: {
-                    color: '#426192',
+                    color: '#163480',
                     distance: 150,
                     enable: true,
                     opacity: 0.5,

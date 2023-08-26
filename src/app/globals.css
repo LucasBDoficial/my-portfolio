@@ -99,6 +99,11 @@
     background: rgba(var(--foreground-about-rgba));
   }
 
+  .bor{
+    border: 1px solid rgb(var(--foreground-rgb));
+    border-radius: 20px;
+  }
+
   .feed{
     border-radius: 0 0 20px 20px;
     border-bottom: 90px solid transparent;
@@ -174,10 +179,6 @@
     object-fit: cover;
   }
 
-  .border-r-2{
-    border-color: rgb(var(--foreground-rgb));
-  }
-
   .background{
     position: relative;
     width: 100%;
@@ -188,7 +189,13 @@
   .ball{
     position: absolute;
     display: flex;
-    z-index: 0;
+    z-index: 0; 
+  }
+
+  .boom{
+    position: absolute;
+    display: flex;
+    z-index: 1;
   }
 
   .ball span{
@@ -196,23 +203,44 @@
     height: 15rem;
     border: 1px solid rgb(var(--theme-font-rgb));
     background: transparent;
-    margin: 0 100px;
+    margin: 0 10rem;
     border-radius: 50%;
     box-shadow: 0 0 0 2px rgba(var(--foreground-rgba)),
      0 0 50px rgb(var(--theme-font-rgb)),
      0 0 100px rgb(var(--theme-font-rgb));
      animation: animar calc(150s / var(--speed)) linear infinite;
-     opacity: 0.3;
+     opacity: 0.5;
   }
 
-  #a{animation: animar calc(150s / 25) linear infinite;}
-  #b{animation: animar calc(150s / 40) linear infinite;}
-  #c{animation: animar calc(150s / 30) linear infinite;}
-  #d{animation: animar calc(150s / 45) linear infinite;}
+  .boom span{
+    width: 2rem;
+    height: 2rem;
+    background-color: rgb(var(--theme-font-rgb));
+    margin: 0 9rem;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px rgba(var(--foreground-rgba)),
+     0 0 50px rgb(var(--theme-font-rgb)),
+     0 0 100px rgb(var(--theme-font-rgb));
+     animation: animar calc(150s / var(--speed)) linear infinite;
+     opacity: 0.5;
+  }
+
+  #a{animation: animar calc(150s / 15) linear infinite;}
+  #b{animation: animar calc(150s / 30) linear infinite;}
+  #c{animation: animar calc(150s / 25) linear infinite;}
+  #d{animation: animar calc(150s / 50) linear infinite;}
+  #e{animation: animar calc(150s / 20) linear infinite;}
+  #f{animation: animar calc(150s / 45) linear infinite;}
+  #g{animation: animar calc(150s / 30) linear infinite;}
+  #h{animation: animar calc(150s / 65) linear infinite;}
+  #i{animation: animar calc(150s / 20) linear infinite;}
+  #j{animation: animar calc(150s / 45) linear infinite;}
+  #k{animation: animar calc(150s / 30) linear infinite;}
+  #l{animation: animar calc(150s / 65) linear infinite;}
 
   @keyframes animar {
     0% {
-      transform:  translateY(100vh) scale(1);
+      transform:  translateY(100vh) scale(0.5);
     }
     100% {
       transform:  translateY(-10vh) scale(1);
@@ -237,6 +265,7 @@
   --background-end-rgb: 1, 24, 61;
   --astro-rgb: 0,0,255;
   --moon-sun-image: url(/sun-fill.svg);
+  --night-day-image: url(/images/night.jpg);
 }
 
 .light {
@@ -249,4 +278,5 @@
   --background-end-rgb: 198, 129, 87;
   --astro-rgb: 255, 117, 0;
   --moon-sun-image: url(/moon-fill.svg);
+  --night-day-image: url(/images/day.jpg);
 }

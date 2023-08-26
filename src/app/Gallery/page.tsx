@@ -23,13 +23,11 @@ export default function Gallery(){
 
             <div className="flex flex-wrap justify-center mt-[100px] relative w-full max-[500px]:mt-[60px]">
 
-                <TypeIt id="textd" className="px-[2%] text-white font-black text-[3.5rem] max-[844px]:mr-[50px] max-[768px]:mr-[0px] max-[768px]:text-center">Tansformando ideias em realidade</TypeIt>
-                <TypeIt id="textl" className="hidden px-[2%] text-black font-black text-[3.5rem] max-[844px]:mr-[50px] max-[768px]:mr-[0px] max-[768px]:text-center ">Tansformando ideias em realidade</TypeIt>
-                
-                
-                    <File />
-                
-            
+                <TypeIt id="textd" className="w-full text-center px-[2%] text-white font-black text-[3.5rem] max-[844px]:mr-[50px] max-[768px]:mr-[0px] max-[768px]:text-center">Tansformando ideias em realidade</TypeIt>
+                <TypeIt id="textl" className="hidden w-full text-center px-[2%] text-black font-black text-[3.5rem] max-[844px]:mr-[50px] max-[768px]:mr-[0px] max-[768px]:text-center ">Tansformando ideias em realidade</TypeIt>
+                             
+                <File />
+
             </div>
 
             <div onClick={toggleMode}><ButtonMode /></div>
