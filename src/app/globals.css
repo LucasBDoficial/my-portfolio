@@ -20,6 +20,7 @@
     height: 100vh;
     text-rendering: optimizelegibility;
     -webkit-font-smoothing: antialiased;
+    
   } 
 
   body {
@@ -161,8 +162,6 @@
     text-align: center;
     font-size: 18px;
     background: #fff;
-  
-    /* Center slide text vertically */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -174,6 +173,58 @@
     height: 100%;
     object-fit: cover;
   }
+
+  .border-r-2{
+    border-color: rgb(var(--foreground-rgb));
+  }
+
+  .background{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .ball{
+    position: absolute;
+    display: flex;
+    z-index: 0;
+  }
+
+  .ball span{
+    width: 15rem;
+    height: 15rem;
+    border: 1px solid rgb(var(--theme-font-rgb));
+    background: transparent;
+    margin: 0 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px rgba(var(--foreground-rgba)),
+     0 0 50px rgb(var(--theme-font-rgb)),
+     0 0 100px rgb(var(--theme-font-rgb));
+     animation: animar calc(150s / var(--speed)) linear infinite;
+     opacity: 0.3;
+  }
+
+  #a{animation: animar calc(150s / 25) linear infinite;}
+  #b{animation: animar calc(150s / 40) linear infinite;}
+  #c{animation: animar calc(150s / 30) linear infinite;}
+  #d{animation: animar calc(150s / 45) linear infinite;}
+
+  @keyframes animar {
+    0% {
+      transform:  translateY(100vh) scale(1);
+    }
+    100% {
+      transform:  translateY(-10vh) scale(1);
+    }
+  }
+
+  .ball span:nth-of-type(even) {
+    background: transparent;
+    box-shadow: 0 0 0 2px rgba(var(--foreground-rgba)),
+     0 0 50px rgb(var(--theme-font-rgb)),
+     0 0 100px rgb(var(--theme-font-rgb));
+    }
 }
 
 :root {
