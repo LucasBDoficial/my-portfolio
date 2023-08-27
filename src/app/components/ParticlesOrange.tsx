@@ -15,7 +15,7 @@ export default function ParticlesBlue() {
 
     return (
         <Particles 
-        className="w-full h-[100%] max-[600px]:h-[95%] absolute translate-z-0 z-10"
+        className="w-full h-[100%] max-[600px]:h-[95%] absolute translate-z-0 z-10 hidden dark:flex"
         id="tspo"
         init={particlesInit} 
         loaded={particlesLoaded}

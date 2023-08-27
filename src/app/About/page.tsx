@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import  ButtonMode  from "../components/ButtonMode"
+// import  ButtonMode  from "../components/ButtonMode"
 import Image from "next/image";
 import Skills from "../components/Skills"
 
@@ -57,17 +57,17 @@ export default function About(){
             </div>
         </div>
 
-        <div onClick={toggleMode}><ButtonMode /></div>
+        {/* <div onClick={toggleMode}><ButtonMode /></div> */}
     </motion.article>
     )
 } 
 
-function toggleMode(){
-    const html = document.documentElement
-    html.classList.toggle("light")
+// function toggleMode(){
+//     const html = document.documentElement
+//     html.classList.toggle("light")
     
-        if(html.classList.contains("light")){}     
-}
+//         if(html.classList.contains("light")){}     
+// }
 
 function toggleSl(){
     const sl = document.querySelector('#sl')

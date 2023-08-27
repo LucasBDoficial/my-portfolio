@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import ParticlesBlue from "./components/ParticlesBlue";
 import ParticlesOrange from "./components/ParticlesOrange";
-import  ButtonMode  from "./components/ButtonMode"
+// import ButtonMode from "./components/ButtonMode";
 
 export default function Home() {
   return (
@@ -28,13 +28,13 @@ export default function Home() {
             className="absolute z-0 ml-[25%] mt-[30px]"/>
     
           <Image src="/images/perfil.png" alt="foto de perfil" width={470} height={470} 
-            className="relative m-auto z-20" id="image1"/>
+            className="relative m-auto z-20 hidden dark:flex" id="image1"/>
 
           <Image src="/images/perfil2.png" alt="foto de perfil" width={470} height={470} 
-            className="relative m-auto hidden z-20" id="image2"/>
+            className="relative m-auto dark:hidden z-20" id="image2"/>
             
           <div className="sun old m-auto mt-[-20px] z-20 ">
-            <samp id="sun" className="moon"></samp>
+            <samp id="sun" className=" moon2 dark:moon"></samp>
           </div>
 
       </div>
@@ -49,47 +49,45 @@ export default function Home() {
 
           <p className="italic text-[1.2rem] text-right mt-[10px]">David Ribeiro Guilherme</p>
 
-          <p className=" text-[1.4rem] italic opacity-[60%] text-center mt-[40px]">Designer e desenvolvedor: Lucas Bucalon</p>
+          <p className=" text-[1.4rem] italic opacity-[60%] text-center mt-[40px]">Tema claro ou escuro de acordo com o padão do navegador</p>
         </div>
       </div>
 
       <ParticlesBlue /> 
       <ParticlesOrange />
 
-      <div onClick={toggleMode}><ButtonMode /></div>
+      {/* <div onClick={toggleMode}><ButtonMode /></div> */}
     </motion.main>
   )
 }
 
-function toggleMode(){
-  const html = document.documentElement
-  html.classList.toggle("light")
+  // const html = document.documentElement
+  // html.classList.toggle("light")
 
-  const sun = document.querySelector('#sun')
-  const img1 = document.querySelector('#image1')
-  const img2 = document.querySelector('#image2')
-  const tspb = document.querySelector('#tspb')
-  const tspo = document.querySelector('#tspo')
+  // const sun = document.querySelector('#sun')
+  // const img1 = document.querySelector('#image1')
+  // const img2 = document.querySelector('#image2')
+  // const tspb = document.querySelector('#tspb')
+  // const tspo = document.querySelector('#tspo')
 
-       if(html.classList.contains("light")){
+  //      if(html.classList.contains("light")){
        
-          sun?.classList.remove('moon')
-          sun?.classList.add('moon2')
+  //         sun?.classList.remove('moon')
+  //         sun?.classList.add('moon2')
 
-          img1?.classList.add('hidden')
-          img2?.classList.remove('hidden')
+  //         img1?.classList.add('hidden')
+  //         img2?.classList.remove('hidden')
 
-          tspb?.classList.remove('hidden')
-          tspo?.classList.add('hidden')
+  //         tspb?.classList.remove('hidden')
+  //         tspo?.classList.add('hidden')
           
-      }else{            
+  //     }else{            
               
-          sun?.classList.add('moon')
+  //         sun?.classList.add('moon')
 
-          img1?.classList.remove('hidden')
-          img2?.classList.add('hidden')
+  //         img1?.classList.remove('hidden')
+  //         img2?.classList.add('hidden')
 
-          tspb?.classList.add('hidden')
-          tspo?.classList.remove('hidden')
-      }
-}
+  //         tspb?.classList.add('hidden')
+  //         tspo?.classList.remove('hidden')
+  //     }

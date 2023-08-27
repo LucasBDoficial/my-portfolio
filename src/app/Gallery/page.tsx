@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import  ButtonMode  from "../components/ButtonMode";
+// import  ButtonMode  from "../components/ButtonMode";
 import File from "../components/File";
 import TypeIt from "typeit-react";
 import Image from "next/image";
@@ -23,30 +23,30 @@ export default function Gallery(){
 
             <div className="flex flex-wrap justify-center mt-[100px] relative w-full max-[500px]:mt-[60px]">
 
-                <TypeIt id="textd" className="w-full text-center px-[2%] text-white font-black text-[3.5rem] max-[844px]:mr-[50px] max-[768px]:mr-[0px] max-[768px]:text-center">Tansformando ideias em realidade</TypeIt>
-                <TypeIt id="textl" className="hidden w-full text-center px-[2%] text-black font-black text-[3.5rem] max-[844px]:mr-[50px] max-[768px]:mr-[0px] max-[768px]:text-center ">Tansformando ideias em realidade</TypeIt>
+                <TypeIt id="textd" className="hidden dark:inline w-full text-center px-[2%] text-white font-black text-[3.5rem] max-[844px]:mr-[50px] max-[768px]:mr-[0px] max-[768px]:text-center">Tansformando ideias em realidade</TypeIt>
+                <TypeIt id="textl" className="dark:hidden w-full text-center px-[2%] text-black font-black text-[3.5rem] max-[844px]:mr-[50px] max-[768px]:mr-[0px] max-[768px]:text-center ">Tansformando ideias em realidade</TypeIt>
                              
                 <File />
 
             </div>
 
-            <div onClick={toggleMode}><ButtonMode /></div>
+            {/* <div onClick={toggleMode}><ButtonMode /></div> */}
         </motion.section>
     )
 }
 
-function toggleMode(){
-    const html = document.documentElement
-    const textd = document.querySelector('#textd')
-    const textl = document.querySelector('#textl')
+// function toggleMode(){
+//     const html = document.documentElement
+//     const textd = document.querySelector('#textd')
+//     const textl = document.querySelector('#textl')
 
-    html.classList.toggle("light")
+//     html.classList.toggle("light")
     
-        if(html.classList.contains("light")){
-            textd?.classList.add('hidden')
-            textl?.classList.remove('hidden')
+//         if(html.classList.contains("light")){
+//             textd?.classList.add('hidden')
+//             textl?.classList.remove('hidden')
 
-        }else{ textd?.classList.remove('hidden')
-                textl?.classList.add('hidden')
-        }     
-}
+//         }else{ textd?.classList.remove('hidden')
+//                 textl?.classList.add('hidden')
+//         }     
+// }toggleMode()
