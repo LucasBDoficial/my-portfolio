@@ -22,9 +22,12 @@ export default function About(){
 
         <div className="flex flex-wrap absolute z-10 max-[900px]:flex-col">
 
-            <h1 className=" w-[100%] px-[2%] mx-auto text-center font-black text-[3.5rem] mt-[90px] max-[900px]:text-left max-[425px]:mt-[60px] max-[425px]:text-center">Designer e Desenvolvedor <span className="max-[425px]:block"> FRONT END</span></h1>
+            <h1 className=" w-[100%] px-[2%] mx-auto text-center font-black text-[3.5rem] mt-[90px] 
+                max-[900px]:text-left max-[425px]:mt-[60px] max-[425px]:text-center">Designer e Desenvolvedor <span className="max-[425px]:block"> FRONT END</span></h1>
 
-                <div className="w-[40%] h-[50%] p-[2%] mt-[15px] mx-auto rounded-[25px] trans max-[900px]:w-[80%] max-[500px]:w-[95%]">
+                <div className="w-[40%] h-[50%] p-[2%] mt-[15px] mx-auto rounded-[25px] trans 
+                    max-[900px]:w-[80%] max-[500px]:w-[95%]">
+                        
                     <span className="font-semibold text-[2.5rem]">Olá</span>
 
                     <p className="ml-[20px] font-medium"> 

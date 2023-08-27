@@ -3,12 +3,6 @@
 @tailwind utilities;
 
 @layer base{
-  * {  
-    margin: 0;
-    padding: 0;
-    outline: 0;
-    box-sizing: border-box;
-  } 
 
   html {
     font-size: 62.5%;
@@ -17,13 +11,13 @@
 
   html,
   body {
-    height: 100vh;
     text-rendering: optimizelegibility;
     -webkit-font-smoothing: antialiased;
     
   } 
 
   body {
+    height: 100vh;
     position: relative;
     font-size: 1.6rem;
     color: rgb(var(--foreground-rgb));

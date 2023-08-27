@@ -5,7 +5,8 @@ import Link from "next/link";
 export function Header(){
     return(
 
-        <motion.div className="relative z-[100]
+        <motion.div 
+        className="relative z-[100]
         max-sm:-mt-4 max-sm:space-y-5 max-sm:flex max-sm:flex-col max-sm:place-items-center"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1, y: 25 }}

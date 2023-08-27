@@ -11,7 +11,8 @@ import 'swiper/css/scrollbar';
 
 export default function Feedbacks(){
     return(
-        <motion.section className="background flex flex-wrap justify-center relative"
+        <motion.section 
+        className="background flex flex-wrap justify-center relative"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1, y:[0]}}
         transition={{
@@ -20,11 +21,11 @@ export default function Feedbacks(){
         }
     }>
         <div className="ball">
-    <span id="a" ></span>
-    <span id="b" ></span>
-    <span id="c" ></span>
-    <span id="d" ></span>
-  </div>
+            <span id="a" ></span>
+            <span id="b" ></span>
+            <span id="c" ></span>
+            <span id="d" ></span>
+        </div>
 
         <h2 className="absolute top-[100px] font-black w-full text-center text-[3.5rem]">Comentários</h2>
 
@@ -40,31 +41,41 @@ export default function Feedbacks(){
 
                 <SwiperSlide className="pt-[4%] max-[600px]:pb-[9%]">
 
-                <div className="flex max-[600px]:flex-col">
-                    <div className="flex justify-center flex-wrap w-[25%] border-r-2 max-[600px]:w-full max-[600px]:border-r-0" >
-                        <div className="w-[10rem] h-[10rem] rounded-full bg-white"></div>
-                        <span className="w-full font-semibold text-[1.9rem] text-center mt-[30px]">João Lucas</span>
-                    </div>
+                    <div className="flex max-[600px]:flex-col">
 
-                    <div className="flex items-center justify-center w-[75%] px-[70px] max-[600px]:w-full max-[600px]:text-center max-[600px]:mt-[15px] max-[600px]:px-[50px]">
-                        <p className="text-[1.8rem]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra metus nisi, vel tempor nunc tristique sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                        <div className="flex justify-center flex-wrap w-[25%] border-r-2 max-[600px]:w-full max-[600px]:border-r-0" >
+
+                            <div className="w-[10rem] h-[10rem] rounded-full bg-white"></div>
+
+                            <span className="w-full font-semibold text-[1.9rem] text-center mt-[30px]">João Lucas</span>
+                        </div>
+
+                        <div className="flex items-center justify-center w-[75%] px-[70px] 
+                            max-[600px]:w-full max-[600px]:text-center max-[600px]:mt-[15px] max-[600px]:px-[50px]">
+
+                            <p className="text-[1.8rem]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra metus nisi, vel tempor nunc tristique sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                        </div>
                     </div>
-                </div>
                 </SwiperSlide>  
 
                 <SwiperSlide className="pt-[4%] max-[600px]:pb-[9%]">
 
-                <div className="flex max-[600px]:flex-col">
-                    <div className="flex justify-center flex-wrap w-[25%] border-r-2 max-[600px]:w-full max-[600px]:border-r-0" >
-                        <div className="w-[10rem] h-[10rem] rounded-full bg-white"></div>
-                        <span className="w-full font-semibold text-[1.9rem] text-center mt-[30px]">João Lucas</span>
-                    </div>
+                    <div className="flex max-[600px]:flex-col">
 
-                    <div className="flex items-center justify-center w-[75%] px-[70px] max-[600px]:w-full max-[600px]:text-center max-[600px]:mt-[15px] max-[600px]:px-[50px]">
-                        <p className="text-[1.8rem]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra metus nisi, vel tempor nunc tristique sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                        <div className="flex justify-center flex-wrap w-[25%] border-r-2 max-[600px]:w-full max-[600px]:border-r-0" >
+
+                            <div className="w-[10rem] h-[10rem] rounded-full bg-white"></div>
+
+                            <span className="w-full font-semibold text-[1.9rem] text-center mt-[30px]">João Lucas</span>
+                        </div>
+
+                        <div className="flex items-center justify-center w-[75%] px-[70px] 
+                            max-[600px]:w-full max-[600px]:text-center max-[600px]:mt-[15px] max-[600px]:px-[50px]">
+
+                            <p className="text-[1.8rem]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra metus nisi, vel tempor nunc tristique sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                        </div>
                     </div>
-                </div>
-                </SwiperSlide>  
+                </SwiperSlide>   
 
         </Swiper>
 

@@ -30,8 +30,6 @@ export default function RootLayout({children,}:{children: ReactNode}) {
 
         <link rel="dns-prefetch" href="http://www.w3.org/2000/svg" /> 
         <link rel="preconnect" href="http://www.w3.org/2000/svg" />
-        <link rel="dns-prefetch" href="https://icon-sets.iconify.design/" /> 
-        <link rel="preconnect" href="https://icon-sets.iconify.design/" />
       </head>
 
       <body className={montserrat.className} >
@@ -39,7 +37,8 @@ export default function RootLayout({children,}:{children: ReactNode}) {
             <Header />
             <Navbar />
         </header>
-        {children}</body>
+        {children}
+      </body>
     </html>
   )
 }
