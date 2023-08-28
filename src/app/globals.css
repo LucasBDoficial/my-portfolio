@@ -222,18 +222,18 @@
      opacity: 0.3;
   }
 
-  #a{animation: animar calc(150s / 15) linear infinite;}
-  #b{animation: animar calc(150s / 30) linear infinite;}
-  #c{animation: animar calc(150s / 25) linear infinite;}
-  #d{animation: animar calc(150s / 50) linear infinite;}
+  #a{animation: animar calc(150s / 20) linear infinite;}
+  #b{animation: animar calc(145s / 30) linear infinite;}
+  #c{animation: animar calc(155s / 25) linear infinite;}
+  #d{animation: animar calc(140s / 50) linear infinite;}
   #e{animation: animar calc(150s / 20) linear infinite;}
-  #f{animation: animar calc(150s / 45) linear infinite;}
-  #g{animation: animar calc(150s / 30) linear infinite;}
-  #h{animation: animar calc(150s / 65) linear infinite;}
+  #f{animation: animar calc(145s / 45) linear infinite;}
+  #g{animation: animar calc(155s / 30) linear infinite;}
+  #h{animation: animar calc(140s / 65) linear infinite;}
   #i{animation: animar calc(150s / 20) linear infinite;}
-  #j{animation: animar calc(150s / 45) linear infinite;}
-  #k{animation: animar calc(150s / 30) linear infinite;}
-  #l{animation: animar calc(150s / 65) linear infinite;}
+  #j{animation: animar calc(145s / 45) linear infinite;}
+  #k{animation: animar calc(155s / 30) linear infinite;}
+  #l{animation: animar calc(140s / 65) linear infinite;}
 
   @keyframes animar {
     0% {
