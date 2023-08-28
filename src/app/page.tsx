@@ -6,11 +6,11 @@ import ParticlesOrange from "./components/ParticlesOrange";
 // import ButtonMode from "./components/ButtonMode";
 
 export default function Home() {
+   
   return (
 
-    <motion.main className="flex
-                max-[900px]:flex-wrap max-[900px]:h-0 max-[900px]:justify-items-start"
-
+    <motion.main
+      className="flex max-[900px]:flex-wrap max-[900px]:h-0 max-[900px]:justify-items-start"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, y:[0]}}
       transition={{
