@@ -30,6 +30,7 @@ export default function RootLayout({children,}:{children: ReactNode}) {
 
         <link rel="dns-prefetch" href="http://www.w3.org/2000/svg" /> 
         <link rel="preconnect" href="http://www.w3.org/2000/svg" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
 
       <body className={montserrat.className} >
