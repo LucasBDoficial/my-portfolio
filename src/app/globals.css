@@ -206,7 +206,7 @@
      0 0 50px rgb(var(--theme-font-rgb)),
      0 0 100px rgb(var(--theme-font-rgb));
      animation: animar calc(150s / var(--speed)) linear infinite;
-     opacity: 0.3;
+     opacity: 0.2;
   }
 
   .boom span{
@@ -219,7 +219,7 @@
      0 0 50px rgb(var(--theme-font-rgb)),
      0 0 100px rgb(var(--theme-font-rgb));
      animation: animar calc(150s / var(--speed)) linear infinite;
-     opacity: 0.3;
+     opacity: 0.2;
   }
 
   #a{animation: animar calc(150s / 20) linear infinite;}
@@ -252,7 +252,7 @@
     }
 }
 
-:root,.dark{
+:root{
   --theme-font-rgb: 25, 70, 175;
   --foreground-rgb: 0, 0, 0;
   --foreground-rv-rgb: 255, 255, 255;
@@ -264,7 +264,6 @@
   --moon-sun-image: url(/moon-fill.svg);
   --night-day-image: url(/images/day.jpg);
 }
-
 
 @media (prefers-color-scheme: dark) { 
   :root{
