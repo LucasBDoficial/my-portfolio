@@ -10,7 +10,7 @@ export default function Home() {
   return (
 
     <motion.main
-      
+      className="over"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, y:[0]}}
       transition={{
