@@ -49,7 +49,7 @@ export default function Home() {
 
           <p className="italic text-[1.2rem] text-right mt-[10px]">David Ribeiro Guilherme</p>
 
-          <p className=" text-[1.4rem] italic opacity-[60%] text-center mt-[40px]">Tema claro ou escuro de acordo com o padão do navegador</p>
+          <p className=" text-[1.4rem] italic opacity-[60%] text-center my-[40px]">Tema claro ou escuro de acordo com o padão do navegador</p>
         </div>
       </div>
 
