@@ -10,7 +10,7 @@ export default function Home() {
   return (
 
     <motion.main
-      className="flex max-[900px]:flex-wrap "
+      
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, y:[0]}}
       transition={{
@@ -21,6 +21,8 @@ export default function Home() {
 
       <Image src="/images/home2.png" alt="imagem de tinta" width={200} height={200} 
         className="absolute top-0 right-0 z-0"/>
+
+    <div className="flex max-[900px]:flex-wrap w-full ">
 
       <div className="w-[50%] relative flex flex-col justify-center mt-[30px] max-[900px]:w-full">     
 
@@ -57,6 +59,7 @@ export default function Home() {
       <ParticlesOrange />
 
       {/* <div onClick={toggleMode}><ButtonMode /></div> */}
+    </div>
     </motion.main>
   )
 }
