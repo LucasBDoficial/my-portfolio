@@ -28,11 +28,11 @@ export default function Home() {
           <Image src="/images/home1.png" alt="image de tinta" width={550} height={550} 
             className="absolute z-0 ml-[25%] mt-[30px] max-[600px]:ml-[20%]"/>
     
-          <Image src="/images/perfil.png" alt="foto de perfil" width={470} height={470} 
+          {/* <Image src="/images/perfil.png" alt="foto de perfil" width={470} height={470} 
             className="relative m-auto z-20 hidden dark:flex" id="image1"/>
 
           <Image src="/images/perfil2.png" alt="foto de perfil" width={470} height={470} 
-            className="relative m-auto dark:hidden z-20" id="image2"/>
+            className="relative m-auto dark:hidden z-20" id="image2"/> */}
             
           <div className="sun old m-auto mt-[-20px] z-20 ">
             <samp id="sun" className=" moon2 dark:moon"></samp>
