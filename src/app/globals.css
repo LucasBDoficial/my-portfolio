@@ -64,10 +64,6 @@
     }
   }
 
-  .over{
-    overflow-x: hidden;
-  }
-
   .ld{
     color: rgb(var(--theme-font-rgb));
     transition: 0.3s;
