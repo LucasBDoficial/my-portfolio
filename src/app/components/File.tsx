@@ -12,7 +12,7 @@ export default function File(){
     
     return(
         <div className="w-[90%] h-[300px] top-[60px] relative
-            max-[1024px]:w-[85%] max-[600px]:h-[550px]">
+            max-[1024px]:w-[85%] max-[600px]:h-[550px] max-[600px]:top-[30px]">
                 
       <Swiper
         modules={[Mousewheel, Pagination]}
@@ -26,7 +26,7 @@ export default function File(){
       >
         <SwiperSlide>
 
-            <div className='flex justify-center space-x-[50px] max-[600px]:flex-col max-[600px]:space-x-0 max-[600px]:space-y-[30px]'>
+            <div className='flex justify-center space-x-[50px] max-[600px]:flex-wrap max-[600px]:space-x-0 max-[600px]:space-y-[30px]'>
 
                 <a href="https://lucasbdoficial.github.io/p_singlepage/" 
                     className="old border-[1px]  border-blue dark:border-orange group w-[45%] h-[30rem] rounded-[20px] relative overflow-hidden max-[1024px]:w-[40%] max-[600px]:w-[90%]">
