@@ -19,10 +19,10 @@ export default function Home() {
       }
     }> 
 
-      <Image src="/images/home2.png" alt="imagem de tinta" width={200} height={200} 
-        className="absolute top-0 right-0 z-0"/>
+      {/* <Image src="/images/home2.png" alt="imagem de tinta" width={200} height={200} 
+        className="absolute top-0 right-0 z-0"/> */}
 
-    <div className="flex max-[900px]:flex-wrap w-full ">
+    {/* <div className="flex max-[900px]:flex-wrap w-full ">
 
       <div className="w-[50%] relative flex flex-col justify-center mt-[30px] max-[900px]:w-full">     
 
@@ -39,9 +39,9 @@ export default function Home() {
             <samp id="sun" className=" moon2 dark:moon"></samp>
           </div>
 
-      </div>
+      </div> 
 
-      <div className="w-[50%] flex justify-center items-center mr-[5%] mt-[40px] z-20
+      {/* <div className="w-[50%] flex justify-center items-center mr-[5%] mt-[40px] z-20
           max-[900px]:w-full max-[900px]:items-start max-[900px]:mr-[0] ">
 
         <div className="absolute text-center">
@@ -53,13 +53,13 @@ export default function Home() {
 
           <p className=" text-[1.4rem] italic opacity-[60%] text-center mt-[40px]">Tema claro ou escuro de acordo com o padão do navegador</p>
         </div>
-      </div>
+      </div> */}
 
       <ParticlesBlue /> 
       <ParticlesOrange />
 
       {/* <div onClick={toggleMode}><ButtonMode /></div> */}
-    </div>
+     {/* </div>  */}
     </motion.main>
   )
 }
