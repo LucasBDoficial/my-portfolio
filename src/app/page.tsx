@@ -25,7 +25,7 @@ export default function Home() {
       <div className="w-[50%] relative flex flex-col justify-center mt-[30px] max-[900px]:w-full">     
 
           <Image src="/images/home1.png" alt="image de tinta" width={550} height={550} 
-            className="absolute z-0 ml-[25%] mt-[30px] max-[600px]:right-[-5%]"/>
+            className="absolute z-0 ml-[25%] mt-[30px] max-[600px]:right-[0]"/>
     
           <Image src="/images/perfil.png" alt="foto de perfil" width={470} height={470} 
             className="relative m-auto z-20 hidden dark:flex" id="image1"/>
