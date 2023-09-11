@@ -252,7 +252,7 @@
     }
 }
 
-:root{
+/* :root{
   --theme-font-rgb: 25, 70, 175;
   --foreground-rgb: 0, 0, 0;
   --foreground-rv-rgb: 255, 255, 255;
@@ -263,9 +263,9 @@
   --astro-rgb: 255, 117, 0;
   --moon-sun-image: url(/moon-fill.svg);
   --night-day-image: url(/images/day.jpg);
-}
+} */
 
-@media (prefers-color-scheme: dark) { 
+/* @media (prefers-color-scheme: dark) { }  */
   :root{
     --theme-font-rgb: 208, 108, 47;
     --foreground-rgb: 255, 255, 255;
@@ -278,4 +278,3 @@
     --moon-sun-image: url(/sun-fill.svg);
     --night-day-image: url(/images/night.jpg);
   }
-}

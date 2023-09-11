@@ -24,10 +24,10 @@ export default function Gallery(){
 
             <div className="flex flex-wrap justify-center mt-[100px] relative w-full max-[500px]:mt-[60px]">
 
-                <TypeIt id="textd" className="hidden dark:inline w-full text-center px-[2%] text-white font-black text-[3.5rem] 
+                <TypeIt id="textd" className=" w-full text-center px-[2%] text-white font-black text-[3.5rem] 
                         max-[844px]:mr-[50px] max-[768px]:mr-[0px] max-[768px]:text-center max-[600px]:h-[80px] ">Tansformando ideias em realidade</TypeIt>
 
-                <TypeIt id="textl" className="dark:hidden w-full text-center px-[2%] text-black font-black text-[3.5rem] 
+                <TypeIt id="textl" className="hidden w-full text-center px-[2%] text-black font-black text-[3.5rem] 
                         max-[844px]:mr-[50px] max-[768px]:mr-[0px] max-[768px]:text-center  max-[600px]:h-[80px] ">Tansformando ideias em realidade</TypeIt>
                              
                 <File />

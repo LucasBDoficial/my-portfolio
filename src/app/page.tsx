@@ -28,13 +28,13 @@ export default function Home() {
             className="absolute z-0 ml-[25%] mt-[30px] max-[600px]:right-[0]"/>
     
           <Image src="/images/perfil.png" alt="foto de perfil" width={470} height={470} 
-            className="relative mx-auto pr-[9px] z-20 hidden dark:flex" id="image1"/>
+            className="relative mx-auto pr-[9px] z-20" id="image1"/>
 
           <Image src="/images/perfil2.png" alt="foto de perfil" width={470} height={470} 
-            className="relative mx-auto pr-[9px] dark:hidden z-20" id="image2"/>
+            className="relative mx-auto pr-[9px] hidden z-20" id="image2"/>
             
           <div className="sun old  mx-auto mt-[-20px] z-20 ">
-            <samp id="sun" className=" moon2 dark:moon"></samp>
+            <samp id="sun" className=" moon"></samp>
           </div>
 
       </div> 
@@ -49,7 +49,7 @@ export default function Home() {
 
           <p className="italic text-[1.2rem] text-right mt-[10px]">David Ribeiro Guilherme</p>
 
-          <p className=" text-[1.4rem] italic opacity-[60%] text-center mt-[40px] max-[500px]:mt-[25px]">Tema claro ou escuro de acordo com o padão do navegador</p>
+          {/* <p className=" text-[1.4rem] italic opacity-[60%] text-center mt-[40px] max-[500px]:mt-[25px]">Tema claro ou escuro de acordo com o padão do navegador</p> */}
         </div>
       </div>
 

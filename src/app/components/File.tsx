@@ -29,7 +29,7 @@ export default function File(){
             <div className='flex justify-center space-x-[50px] max-[600px]:flex-wrap max-[600px]:space-x-0 max-[600px]:space-y-[30px]'>
 
                 <a href="https://lucasbdoficial.github.io/p_singlepage/" 
-                    className="old border-[1px]  border-blue dark:border-orange group w-[45%] h-[30rem] rounded-[20px] relative overflow-hidden max-[1024px]:w-[40%] max-[600px]:w-[90%]">
+                    className="old border-[1px]  border-orange group w-[45%] h-[30rem] rounded-[20px] relative overflow-hidden max-[1024px]:w-[40%] max-[600px]:w-[90%]">
 
                                 <Image src="/images/singlepage.jpg" alt="imagem de tinta" width={2000} height={2000} 
                                         className=" w-full h-full absolute"/> 
@@ -45,7 +45,7 @@ export default function File(){
                 </a>
 
                 <a href="https://lucasbdoficial.github.io/p_linkpage/" 
-                    className="old border-[1px] border-blue dark:border-orange group w-[45%] h-[30rem] rounded-[20px] relative overflow-hidden max-[1024px]:w-[40%] max-[600px]:w-[90%]">
+                    className="old border-[1px] border-orange group w-[45%] h-[30rem] rounded-[20px] relative overflow-hidden max-[1024px]:w-[40%] max-[600px]:w-[90%]">
 
                                 <Image src="/images/linkpage.jpg" alt="imagem de tinta" width={2000} height={2000} 
                                         className=" w-full h-full absolute"/> 
