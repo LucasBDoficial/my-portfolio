@@ -1,9 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import ParticlesBlue from "./components/ParticlesBlue";
-import ParticlesOrange from "./components/ParticlesOrange";
-// import ButtonMode from "./components/ButtonMode";
+import ParticlesGray from "./components/ParticlesGray";
 
 export default function Home() {
    
@@ -49,46 +47,11 @@ export default function Home() {
 
           <p className="italic text-[1.2rem] text-right mt-[10px]">David Ribeiro Guilherme</p>
 
-          {/* <p className=" text-[1.4rem] italic opacity-[60%] text-center mt-[40px] max-[500px]:mt-[25px]">Tema claro ou escuro de acordo com o padão do navegador</p> */}
-        </div>
+          </div>
       </div>
 
-      <ParticlesBlue /> 
-      <ParticlesOrange />
-
-      {/* <div onClick={toggleMode}><ButtonMode /></div> */}
+      <ParticlesGray />
   
     </motion.main>
   )
 }
-
-  // const html = document.documentElement
-  // html.classList.toggle("light")
-
-  // const sun = document.querySelector('#sun')
-  // const img1 = document.querySelector('#image1')
-  // const img2 = document.querySelector('#image2')
-  // const tspb = document.querySelector('#tspb')
-  // const tspo = document.querySelector('#tspo')
-
-  //      if(html.classList.contains("light")){
-       
-  //         sun?.classList.remove('moon')
-  //         sun?.classList.add('moon2')
-
-  //         img1?.classList.add('hidden')
-  //         img2?.classList.remove('hidden')
-
-  //         tspb?.classList.remove('hidden')
-  //         tspo?.classList.add('hidden')
-          
-  //     }else{            
-              
-  //         sun?.classList.add('moon')
-
-  //         img1?.classList.remove('hidden')
-  //         img2?.classList.add('hidden')
-
-  //         tspb?.classList.add('hidden')
-  //         tspo?.classList.remove('hidden')
-  //     }

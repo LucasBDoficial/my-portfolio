@@ -23,8 +23,8 @@
     color: rgb(var(--foreground-rgb));
     background: linear-gradient(
       to bottom left, 
-      rgb(var(--background-start-rgb)), 
-      rgb(var(--background-end-rgb))70%
+      rgb(var(--background-end-rgb)), 
+      rgb(var(--background-start-rgb))70%
     )
   } 
 
@@ -114,23 +114,16 @@
     border-radius: 50%;
     background: linear-gradient(
       to right top, 
-      rgb(var(--foreground-rgb)), 
-      rgb(var(--astro-rgb))50%
+      white, 
+      gray 50%
       )
-  }
-
-  .moon2{
-    right: 0;
-    top: 0;
-    background: rgb(1, 24, 61);
-    transform: translate3d(75px, -75px, 0) scale(0.9);
   }
 
   .moon{
     position: absolute;
     right: 0;
     top: 0;
-    background: rgb(1, 24, 61);
+    background: #1e1e1e;
     transform: translate3d(10px, -10px, 0) scale(0.9);
     transition: transform .1s;
   }
@@ -216,8 +209,8 @@
     margin: 0 7rem;
     border-radius: 50%;
     box-shadow: 0 0 0 2px rgba(var(--foreground-rgba)),
-     0 0 50px rgb(var(--theme-font-rgb)),
-     0 0 100px rgb(var(--theme-font-rgb));
+     0 0 50px gray,
+     0 0 100px gray;
      animation: animar calc(150s / var(--speed)) linear infinite;
      opacity: 0.2;
   }
@@ -247,25 +240,11 @@
   .ball span:nth-of-type(even) {
     background: transparent;
     box-shadow: 0 0 0 2px rgba(var(--foreground-rgba)),
-     0 0 50px rgb(var(--theme-font-rgb)),
-     0 0 100px rgb(var(--theme-font-rgb));
+     0 0 50px gray,
+     0 0 100px gray;
     }
 }
 
-/* :root{
-  --theme-font-rgb: 25, 70, 175;
-  --foreground-rgb: 0, 0, 0;
-  --foreground-rv-rgb: 255, 255, 255;
-  --foreground-rgba: 0, 0, 0, 0.20;
-  --foreground-about-rgba: 255, 255, 255, 0.05;
-  --background-start-rgb: 218, 228, 233;
-  --background-end-rgb: 198, 129, 87;
-  --astro-rgb: 255, 117, 0;
-  --moon-sun-image: url(/moon-fill.svg);
-  --night-day-image: url(/images/day.jpg);
-} */
-
-/* @media (prefers-color-scheme: dark) { }  */
   :root{
     --theme-font-rgb: 208, 108, 47;
     --foreground-rgb: 255, 255, 255;
@@ -273,8 +252,5 @@
     --foreground-rgba: 255, 255, 255, 0.20;
     --foreground-about-rgba: 0, 0, 0, 0.05;
     --background-start-rgb: 30, 30, 30;
-    --background-end-rgb: 1, 24, 61;
-    --astro-rgb: 0,0,255;
-    --moon-sun-image: url(/sun-fill.svg);
-    --night-day-image: url(/images/night.jpg);
+    --background-end-rgb: 0, 0, 0;
   }

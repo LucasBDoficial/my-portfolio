@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-// import  ButtonMode  from "../components/ButtonMode";
+
 import File from "../components/File";
 import TypeIt from "typeit-react";
 import Image from "next/image";
@@ -34,23 +34,6 @@ export default function Gallery(){
 
             </div>
 
-            {/* <div onClick={toggleMode}><ButtonMode /></div> */}
         </motion.section>
     )
 }
-
-// function toggleMode(){
-//     const html = document.documentElement
-//     const textd = document.querySelector('#textd')
-//     const textl = document.querySelector('#textl')
-
-//     html.classList.toggle("light")
-    
-//         if(html.classList.contains("light")){
-//             textd?.classList.add('hidden')
-//             textl?.classList.remove('hidden')
-
-//         }else{ textd?.classList.remove('hidden')
-//                 textl?.classList.add('hidden')
-//         }     
-// }toggleMode()

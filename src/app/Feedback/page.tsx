@@ -2,7 +2,6 @@
 import { motion } from "framer-motion";
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-// import  ButtonMode  from "../components/ButtonMode"
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -82,14 +81,6 @@ export default function Feedbacks(){
             <div className="w-[150px] ml-[23%] feed"></div>
         </div>
 
-        {/* <div onClick={toggleMode}><ButtonMode /></div> */}
         </motion.section>
     )
 }
-
-// function toggleMode(){
-//     const html = document.documentElement
-//     html.classList.toggle("light")
-    
-//         if(html.classList.contains("light")){}     
-// }

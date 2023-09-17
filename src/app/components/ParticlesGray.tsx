@@ -5,7 +5,7 @@ import { Particles}  from "react-particles";
 import { Engine } from "tsparticles-engine";
 import { loadFull } from "tsparticles";
 
-export default function ParticlesBlue() {
+export default function ParticlesGray() {
 
     const particlesInit = useCallback(async (engine: Engine)=> {
         await loadFull(engine);
@@ -15,8 +15,8 @@ export default function ParticlesBlue() {
 
     return (
         <Particles 
-        className="w-full h-[100%] max-[600px]:h-[95%] absolute translate-z-0 z-10 hidden"
-        id="tspb"
+        className="w-full h-[100%] max-[600px]:h-[95%] absolute translate-z-0 z-10"
+        id="tspo"
         init={particlesInit} 
         loaded={particlesLoaded}
         options={{
@@ -51,10 +51,10 @@ export default function ParticlesBlue() {
             },
             particles: {
                 color: {
-                    value: '#806192',
+                    value: '#A47F7F',
                 },
                 links: {
-                    color: '#163480',
+                    color: '#C1A3A3',
                     distance: 150,
                     enable: true,
                     opacity: 0.5,
@@ -93,5 +93,5 @@ export default function ParticlesBlue() {
             detectRetina: true,
         }} 
         />
-    )  
+    )
 }

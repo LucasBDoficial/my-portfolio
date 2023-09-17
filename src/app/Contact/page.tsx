@@ -1,6 +1,5 @@
 "use client";
 import { motion } from "framer-motion";
-// import  ButtonMode  from "../components/ButtonMode"
 import Link from "next/link";
 
 export default function Contact(){
@@ -54,14 +53,6 @@ export default function Contact(){
             </div>
         </div>
 
-            {/* <div onClick={toggleMode}><ButtonMode /></div> */}
         </motion.section>
     )
 }
-
-// function toggleMode(){
-//     const html = document.documentElement
-//     html.classList.toggle("light")
-    
-//         if(html.classList.contains("light")){}     
-// }
