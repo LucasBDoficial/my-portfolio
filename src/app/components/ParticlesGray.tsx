@@ -54,7 +54,7 @@ export default function ParticlesGray() {
                     value: '#A47F7F',
                 },
                 links: {
-                    color: '#C1A3A3',
+                    color: '#1e1e1e',
                     distance: 150,
                     enable: true,
                     opacity: 0.5,

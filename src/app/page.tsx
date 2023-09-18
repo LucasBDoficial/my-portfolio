@@ -18,18 +18,15 @@ export default function Home() {
     }> 
 
       <Image src="/images/home2.png" alt="imagem de tinta" width={200} height={200} 
-        className="absolute top-0 right-0 z-0"/>
+        className="absolute top-0 right-0 z-0 opacity-40"/>
 
       <div className="w-[50%] relative flex flex-col justify-center  mt-[30px] max-[900px]:w-full">     
 
           <Image src="/images/home1.png" alt="image de tinta" width={550} height={550} 
-            className="absolute z-0 ml-[25%] mt-[30px] max-[600px]:right-[0]"/>
+            className="absolute z-0 ml-[25%] mt-[30px] max-[600px]:right-[0] opacity-40"/>
     
-          <Image src="/images/perfil.png" alt="foto de perfil" width={470} height={470} 
-            className="relative mx-auto pr-[9px] z-20" id="image1"/>
-
-          <Image src="/images/perfil2.png" alt="foto de perfil" width={470} height={470} 
-            className="relative mx-auto pr-[9px] hidden z-20" id="image2"/>
+          <Image src="/images/perfil.png" alt="foto de perfil" width={350} height={350} 
+            className="relative mx-auto pr-[9px] z-20 mt-[30px]" id="image1"/>
             
           <div className="sun old  mx-auto mt-[-20px] z-20 ">
             <samp id="sun" className=" moon"></samp>

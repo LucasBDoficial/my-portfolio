@@ -17,7 +17,7 @@ export function Navbar() {
             <ul className="old py-11 px-2 rounded-full flex flex-col space-y-8 min-mt-90
                 max-sm:rounded-none max-sm:flex-row max-sm:py-2 max-sm:justify-center max-sm:px-0 max-sm:space-y-0 max-sm:space-x-10">
 
-                <a href="/" className="group items-center flex" >      
+                <a href="/" className="group items-center flex">      
                     <p className="absolute right-[54px] bgb py-1 px-2 rounded-md text-lg italic hidden sm:group-hover:flex z-10 group:">Início</p>
                     <i className="w-5 h-5 bgb rotate-45 rounded-md absolute right-[50px] hidden sm:group-hover:flex" /> 
                         <svg className="hover:ld  " 

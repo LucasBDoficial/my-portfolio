@@ -20,16 +20,12 @@
     height: 100vh;
     position: relative;
     font-size: 1.6rem;
-    color: rgb(var(--foreground-rgb));
-    background: linear-gradient(
-      to bottom left, 
-      rgb(var(--background-end-rgb)), 
-      rgb(var(--background-start-rgb))70%
-    )
+    color: rgb(255, 255, 255);
+    background: black;
   } 
 
   span {
-    color: rgb(var(--theme-font-rgb));
+    color: gray;
   }
 
   @media (min-width: 2560px) {
@@ -65,37 +61,31 @@
   }
 
   .ld{
-    color: rgb(var(--theme-font-rgb));
+    color: gray;
     transition: 0.3s;
-    border-color: rgb(var(--theme-font-rgb));
-  }
-
-  .ims{
-    background-image: var(--moon-sun-image);
-    background-color: rgb(var(--foreground-rgb));
-    background-size: 80%;
+    border-color: gray;
   }
 
   .old{
-    background-color: rgba(var(--foreground-rgba));
+    background-color: rgba(255, 255, 255, 0.20);
   }
 
   .select{
-    color: rgba(var(--theme-font-rgb));
-    border-bottom: 1px solid rgba(var(--theme-font-rgb));
+    color: gray;
+    border-bottom: 1px solid gray;
   }
 
   .bgb{
-    background-color: rgb(var(--foreground-rgb));
-    color: rgb(var(--foreground-rv-rgb));
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
   }
 
   .trans{
-    background: rgba(var(--foreground-about-rgba));
+    background: rgba(255, 255, 255, 0.20);
   }
 
   .bor{
-    border: 1px solid rgb(var(--foreground-rgb));
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 20px;
   }
 
@@ -103,8 +93,8 @@
     border-radius: 0 0 20px 20px;
     border-bottom: 90px solid transparent;
     border-right: 60px solid transparent;
-    border-top: 60px solid rgba(var(--foreground-rgba));
-    border-left: 90px solid rgba(var(--foreground-rgba));
+    border-top: 60px solid rgba(255, 255, 255, 0.20);
+    border-left: 90px solid rgba(255, 255, 255, 0.20);
   }
 
   .sun,.moon{
@@ -123,27 +113,35 @@
     position: absolute;
     right: 0;
     top: 0;
-    background: #1e1e1e;
+    background: black;
     transform: translate3d(10px, -10px, 0) scale(0.9);
     transition: transform .1s;
   }
 
   .swiper .swiper-button-prev{ 
-    color: rgb(var(--theme-font-rgb))
+    color: gray;
    }
  
   .swiper .swiper-button-next{
-    color: rgb(var(--theme-font-rgb))
+    color: gray;
    }
 
   .swiper .swiper-pagination-bullet-active{
-    background-color: rgb(var(--theme-font-rgb))
+    background-color: gray;
+   }
+
+   .swiper .swiper-pagination-bullet{
+    background-color: gray;
    }
 
   #bullet .swiper .swiper-pagination-bullet-active{
-    background-color: rgb(var(--theme-font-rgb));
+    background-color: gray;
     display: flex;
     position: absolute;
+   }
+
+   #bullet .swiper .swiper-pagination-bullet{
+    background-color: gray;
    }
 
    .swiper {
@@ -199,7 +197,7 @@
      0 0 50px gray,
      0 0 100px gray;
      animation: animar calc(150s / var(--speed)) linear infinite;
-     opacity: 0.2;
+     opacity: 0.1;
   }
 
   .boom span{
@@ -212,7 +210,7 @@
      0 0 50px gray,
      0 0 100px gray;
      animation: animar calc(150s / var(--speed)) linear infinite;
-     opacity: 0.2;
+     opacity: 0.1;
   }
 
   #a{animation: animar calc(150s / 20) linear infinite;}
@@ -243,14 +241,4 @@
      0 0 50px gray,
      0 0 100px gray;
     }
-}
-
-  :root{
-    --theme-font-rgb: 208, 108, 47;
-    --foreground-rgb: 255, 255, 255;
-    --foreground-rv-rgb: 0, 0, 0;
-    --foreground-rgba: 255, 255, 255, 0.20;
-    --foreground-about-rgba: 0, 0, 0, 0.05;
-    --background-start-rgb: 30, 30, 30;
-    --background-end-rgb: 0, 0, 0;
-  }
+} 

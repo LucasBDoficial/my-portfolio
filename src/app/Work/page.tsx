@@ -16,13 +16,13 @@ export default function Work(){
         }
     }>
             <Image src="/images/work1.png" alt="imagem de tinta" width={350} height={0} 
-                    className=" absolute top-0 z-0 animate-pulse "/>
+                    className=" absolute top-0 z-0 animate-pulse opacity-5"/>
 
             <Image src="/images/work2.png" alt="imagem de tinta" width={250} height={0} 
-                    className=" absolute bottom-0 left-0 z-0 animate-pulse "/>
+                    className=" absolute bottom-0 left-0 z-0 animate-pulse opacity-5"/>
 
             <Image src="/images/work3.png" alt="imagem de tinta" width={200} height={0} 
-                className=" absolute bottom-0 right-0 z-0 animate-pulse "/>
+                className=" absolute bottom-0 right-0 z-0 animate-pulse opacity-5"/>
 
             <div className="flex flex-wrap justify-center relative w-full">
 
