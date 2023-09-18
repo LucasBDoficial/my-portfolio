@@ -1,6 +1,6 @@
 export default function Skills(){
     return(
-    <><section id="skl" className=" w-full absolute mt-[30px] max-[900px]:text-center">
+    <><section id="skl" className=" w-full absolute mt-[30px] max-[900px]:text-center pb-[5%]">
 
         <h3 className="max-[500px]:hidden">Desenvolvedor -</h3>
 
@@ -67,8 +67,6 @@ export default function Skills(){
             <div className="flex flex-col ml-[25px] mt-[15px] text-[1.5rem] max-[500px]:mt-[5px] max-[900px]:ml-[0px]">
                 <p> Discover</p>
             </div>
-
-            <p className="max-[900px]:h-[150px]"/>
 
     </section>
     </>
