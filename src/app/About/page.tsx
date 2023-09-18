@@ -6,7 +6,7 @@ import Skills from "../components/Skills"
 export default function About(){
     return(
     
-    <motion.article className="pb-[5%]"
+    <motion.article className="pb-[30%]"
 
         initial={{ opacity: 0 }}
         animate={{ opacity: 1, y:[0]}}
