@@ -1,6 +1,6 @@
 export default function Skills(){
     return(
-    <><section id="skl" className=" w-full absolute mt-[30px] max-[900px]:text-center pb-[5%]">
+    <><section id="skl" className=" w-full absolute mt-[30px] max-[900px]:text-center pb-[15%]">
 
         <h3 className="max-[500px]:hidden">Desenvolvedor -</h3>
 
