@@ -68,7 +68,7 @@ export default function Skills(){
                 <p> Discover</p>
             </div>
 
-            <p className="max-[500px]:h-[150px]"/>
+            <p className="max-[900px]:h-[150px]"/>
 
     </section>
     </>

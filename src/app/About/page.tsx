@@ -59,7 +59,7 @@ export default function About(){
             </div>
         </div>
 
-        <p className="max-[500px]:h-[150px]"/>
+        <p className="max-[900px]:h-[150px]"/>
 
     </motion.article>
     )
