@@ -191,13 +191,13 @@
   .ball span{
     width: 15rem;
     height: 15rem;
-    border: 1px solid rgb(var(--theme-font-rgb));
+    border: 1px solid gray;
     background: transparent;
     margin: 0 10rem;
     border-radius: 50%;
-    box-shadow: 0 0 0 2px rgba(var(--foreground-rgba)),
-     0 0 50px rgb(var(--theme-font-rgb)),
-     0 0 100px rgb(var(--theme-font-rgb));
+    box-shadow: 0 0 0 2px gray,
+     0 0 50px gray,
+     0 0 100px gray;
      animation: animar calc(150s / var(--speed)) linear infinite;
      opacity: 0.2;
   }
@@ -205,10 +205,10 @@
   .boom span{
     width: 2rem;
     height: 2rem;
-    background-color: rgb(var(--theme-font-rgb));
+    background-color: gray;
     margin: 0 7rem;
     border-radius: 50%;
-    box-shadow: 0 0 0 2px rgba(var(--foreground-rgba)),
+    box-shadow: 0 0 0 2px gray,
      0 0 50px gray,
      0 0 100px gray;
      animation: animar calc(150s / var(--speed)) linear infinite;
@@ -239,7 +239,7 @@
 
   .ball span:nth-of-type(even) {
     background: transparent;
-    box-shadow: 0 0 0 2px rgba(var(--foreground-rgba)),
+    box-shadow: 0 0 0 2px gray,
      0 0 50px gray,
      0 0 100px gray;
     }
