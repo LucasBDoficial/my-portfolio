@@ -47,6 +47,8 @@ export default function Home() {
 
           <p className="italic text-[1.2rem] text-right mt-[10px]">David Ribeiro Guilherme</p>
 
+          <p className="max-[500px]:h-[150px]"/>
+
           </div>
       </div>
 
