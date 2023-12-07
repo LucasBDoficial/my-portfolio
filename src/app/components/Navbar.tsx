@@ -4,8 +4,8 @@ import { motion } from 'framer-motion'
 export function Navbar() {
   return (
     <motion.nav
-      className="fixed right-0 flex h-full items-center mr-[15px] z-[90]
-            max-sm:block max-sm:h-0 max-sm:w-full max-sm:bottom-[34px] max-sm:mr-0"
+      className="fixed right-0 z-[90] mr-[15px] flex h-full items-center
+            max-sm:bottom-[34px] max-sm:mr-0 max-sm:block max-sm:h-0 max-sm:w-full"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, y: [30, 0] }}
       transition={{
@@ -14,14 +14,14 @@ export function Navbar() {
       }}
     >
       <ul
-        className="old py-11 px-2 rounded-full flex flex-col space-y-8 min-mt-90
-                max-sm:rounded-none max-sm:flex-row max-sm:py-2 max-sm:justify-center max-sm:px-0 max-sm:space-y-0 max-sm:space-x-10"
+        className="old min-mt-90 flex flex-col space-y-8 rounded-full px-2 py-11
+                max-sm:flex-row max-sm:justify-center max-sm:space-x-10 max-sm:space-y-0 max-sm:rounded-none max-sm:px-0 max-sm:py-2"
       >
-        <a href="/" className="group items-center flex">
-          <p className="absolute right-[54px] bgb py-1 px-2 rounded-md text-lg italic hidden sm:group-hover:flex z-10 group:">
+        <a href="/" className="group flex items-center">
+          <p className="bgb group: absolute right-[54px] z-10 hidden rounded-md px-2 py-1 text-lg italic sm:group-hover:flex">
             Início
           </p>
-          <i className="w-5 h-5 bgb rotate-45 rounded-md absolute right-[50px] hidden sm:group-hover:flex" />
+          <i className="bgb absolute right-[50px] hidden h-5 w-5 rotate-45 rounded-md sm:group-hover:flex" />
           <svg
             className="hover:ld  "
             xmlns="http://www.w3.org/2000/svg"
@@ -40,11 +40,11 @@ export function Navbar() {
           </svg>
         </a>
 
-        <a href="./About" className="group items-center flex">
-          <p className="absolute right-[54px] bgb py-1 px-2 rounded-md text-lg italic hidden sm:group-hover:flex z-10 group:">
+        <a href="./About" className="group flex items-center">
+          <p className="bgb group: absolute right-[54px] z-10 hidden rounded-md px-2 py-1 text-lg italic sm:group-hover:flex">
             Sobre
           </p>
-          <i className="w-5 h-5 bgb rotate-45 rounded-md absolute right-[50px] hidden sm:group-hover:flex" />
+          <i className="bgb absolute right-[50px] hidden h-5 w-5 rotate-45 rounded-md sm:group-hover:flex" />
           <svg
             className="hover:ld"
             xmlns="http://www.w3.org/2000/svg"
@@ -59,11 +59,11 @@ export function Navbar() {
           </svg>
         </a>
 
-        <a href="./Work" className="group items-center flex">
-          <p className="absolute right-[54px] bgb py-1 px-2 rounded-md text-lg italic hidden sm:group-hover:flex z-10 group:">
+        <a href="./Work" className="group flex items-center">
+          <p className="bgb group: absolute right-[54px] z-10 hidden rounded-md px-2 py-1 text-lg italic sm:group-hover:flex">
             Trabalho
           </p>
-          <i className="w-5 h-5 bgb rotate-45 rounded-md absolute right-[50px] hidden sm:group-hover:flex" />
+          <i className="bgb absolute right-[50px] hidden h-5 w-5 rotate-45 rounded-md sm:group-hover:flex" />
           <svg
             className="hover:ld"
             xmlns="http://www.w3.org/2000/svg"
@@ -80,11 +80,11 @@ export function Navbar() {
           </svg>
         </a>
 
-        <a href="./Gallery" className="group items-center flex">
-          <p className="absolute right-[54px] bgb py-1 px-2 rounded-md text-lg italic hidden sm:group-hover:flex z-10 group:">
+        <a href="./Gallery" className="group flex items-center">
+          <p className="bgb group: absolute right-[54px] z-10 hidden rounded-md px-2 py-1 text-lg italic sm:group-hover:flex">
             Galeria
           </p>
-          <i className="w-5 h-5 bgb rotate-45 rounded-md absolute right-[50px] hidden sm:group-hover:flex" />
+          <i className="bgb absolute right-[50px] hidden h-5 w-5 rotate-45 rounded-md sm:group-hover:flex" />
           <svg
             className="hover:ld"
             xmlns="http://www.w3.org/2000/svg"
@@ -111,11 +111,11 @@ export function Navbar() {
                         <svg className="hover:ld"
                         xmlns="http://www.w3.org/2000/svg" width="3rem" height="3.1rem" viewBox="0 0 24 24"><path fill="currentColor" d="M9 22c-.6 0-1-.4-1-1v-3H4c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2h-6.1l-3.7 3.7c-.2.2-.4.3-.7.3H9m1-6v3.1l3.1-3.1H20V4H4v12h6m6.3-10l-1.4 3H17v4h-4V8.8L14.3 6h2m-6 0L8.9 9H11v4H7V8.8L8.3 6h2Z"/></svg></a> */}
 
-        <a href="./Contact" className="group items-center flex">
-          <p className="absolute right-[54px] bgb py-1 px-2 rounded-md text-lg italic hidden sm:group-hover:flex z-10 group:">
+        <a href="./Contact" className="group flex items-center">
+          <p className="bgb group: absolute right-[54px] z-10 hidden rounded-md px-2 py-1 text-lg italic sm:group-hover:flex">
             Contato
           </p>
-          <i className="w-5 h-5 bgb rotate-45 rounded-md absolute right-[50px] hidden sm:group-hover:flex" />
+          <i className="bgb absolute right-[50px] hidden h-5 w-5 rotate-45 rounded-md sm:group-hover:flex" />
           <svg
             className="hover:ld"
             xmlns="http://www.w3.org/2000/svg"

@@ -15,7 +15,7 @@ export default function ParticlesGray() {
 
   return (
     <Particles
-      className="w-full h-[100%] max-[600px]:h-[95%] absolute translate-z-0 z-10"
+      className="translate-z-0 absolute z-10 h-[100%] w-full max-[600px]:h-[95%]"
       id="tspo"
       init={particlesInit}
       loaded={particlesLoaded}

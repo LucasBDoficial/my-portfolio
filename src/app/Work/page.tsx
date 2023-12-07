@@ -39,16 +39,16 @@ export default function Work() {
         className=" absolute bottom-0 right-0 z-0 animate-pulse opacity-5"
       />
 
-      <div className="flex flex-wrap justify-center relative w-full">
+      <div className="relative flex w-full flex-wrap justify-center">
         <h2
-          className="px-[2%] font-black text-[3.5rem] mt-[100px] 
+          className="mt-[100px] px-[2%] text-[3.5rem] font-black 
                     max-[844px]:mr-[50px] max-[768px]:mr-[0px] max-[768px]:text-center"
         >
           Trabalhando em solucionar <span> PROBLEMAS </span>
         </h2>
 
         <motion.div
-          className="w-[90%] cursor-grab mt-[30px]"
+          className="mt-[30px] w-[90%] cursor-grab"
           whileTap={{ cursor: 'grabbing' }}
         >
           <Slider />

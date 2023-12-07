@@ -24,8 +24,8 @@ export default function Slider() {
         },
       }}
     >
-      <SwiperSlide className="p-[50px] mx-auto">
-        <div className="w-full min-h-[25rem] rounded-[20px] old p-[5%] ">
+      <SwiperSlide className="mx-auto p-[50px]">
+        <div className="old min-h-[25rem] w-full rounded-[20px] p-[5%] ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="4.8rem"
@@ -43,15 +43,15 @@ export default function Slider() {
               <path d="m32 6l-4 4l4 4m6-8l4 4l-4 4M14 42h20" />
             </g>
           </svg>
-          <p className="font-meduin text-[2rem] mt-[20px]">
+          <p className="font-meduin mt-[20px] text-[2rem]">
             Conhecimentos de <span>api’s e pluguins,</span> para aumentar as
             soluções de problemas, e ampliar os objetivos
           </p>
         </div>
       </SwiperSlide>
 
-      <SwiperSlide className="p-[50px] mx-auto">
-        <div className="w-full min-h-[25rem] rounded-[20px] old p-[5%]">
+      <SwiperSlide className="mx-auto p-[50px]">
+        <div className="old min-h-[25rem] w-full rounded-[20px] p-[5%]">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="4.8rem"
@@ -69,15 +69,15 @@ export default function Slider() {
               <path d="m17.792 11.056l2.828-2.829a2 2 0 0 0 0-2.828L18.5 3.277a2 2 0 0 0-2.829 0l-2.828 2.829m-1.062 6.01a1.5 1.5 0 1 0-2.121 2.122a1.5 1.5 0 0 0 2.121-2.122Z" />
             </g>
           </svg>
-          <p className="font-meduin text-[2rem] mt-[20px]">
+          <p className="font-meduin mt-[20px] text-[2rem]">
             Cursado em <span>ux e ui,</span> para melhorar a experiência dos
             projetos.
           </p>
         </div>
       </SwiperSlide>
 
-      <SwiperSlide className="p-[50px] mx-auto">
-        <div className="w-full min-h-[25rem] rounded-[20px] old p-[5%]">
+      <SwiperSlide className="mx-auto p-[50px]">
+        <div className="old min-h-[25rem] w-full rounded-[20px] p-[5%]">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="4.8rem"
@@ -93,15 +93,15 @@ export default function Slider() {
               d="M25 6H9a3 3 0 0 0-3 3v22a3 3 0 0 0 3 3h30a3 3 0 0 0 3-3v-7M24 34v8m-10 0h20m3-24V6m-5 5l5-5l5 5"
             />
           </svg>
-          <p className="font-meduin text-[2rem] mt-[20px]">
+          <p className="font-meduin mt-[20px] text-[2rem]">
             Documentos bem otimizados, com praticas de <span>seo e smo,</span>{' '}
             para melhor performance
           </p>
         </div>
       </SwiperSlide>
 
-      <SwiperSlide className="p-[50px] mx-auto">
-        <div className="w-full min-h-[25rem] rounded-[20px] old p-[5%]">
+      <SwiperSlide className="mx-auto p-[50px]">
+        <div className="old min-h-[25rem] w-full rounded-[20px] p-[5%]">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="4.8rem"
@@ -124,15 +124,15 @@ export default function Slider() {
               />
             </g>
           </svg>
-          <p className="font-meduin text-[2rem] mt-[20px]">
+          <p className="font-meduin mt-[20px] text-[2rem]">
             Códigos organizados com <span>semântica,</span> e boas praticas de{' '}
             <span>metodologias,</span> para melhor visualização do código
           </p>
         </div>
       </SwiperSlide>
 
-      <SwiperSlide className="p-[50px] mx-auto">
-        <div className="w-full min-h-[25rem] rounded-[20px] old p-[5%]">
+      <SwiperSlide className="mx-auto p-[50px]">
+        <div className="old min-h-[25rem] w-full rounded-[20px] p-[5%]">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="4.8rem"
@@ -144,15 +144,15 @@ export default function Slider() {
               d="M4 6v10h5v-4a2 2 0 0 1 2-2h5a2 2 0 0 1 2 2v4h2V6H4M0 20v-2h4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h4v2h-6a2 2 0 0 1-2 2h-5a2 2 0 0 1-2-2H0m11.5 0a.5.5 0 0 0-.5.5a.5.5 0 0 0 .5.5a.5.5 0 0 0 .5-.5a.5.5 0 0 0-.5-.5m4 0a.5.5 0 0 0-.5.5a.5.5 0 0 0 .5.5a.5.5 0 0 0 .5-.5a.5.5 0 0 0-.5-.5M13 20v1h1v-1h-1m-2-8v7h5v-7h-5Z"
             />
           </svg>
-          <p className="font-meduin text-[2rem] mt-[20px]">
+          <p className="font-meduin mt-[20px] text-[2rem]">
             Aplicações totalmente <span>responsivas,</span> para mobile,
             desktop, tablet, e notbook.
           </p>
         </div>
       </SwiperSlide>
 
-      <SwiperSlide className="p-[50px] mx-auto">
-        <div className="w-full min-h-[25rem] rounded-[20px] old p-[5%]">
+      <SwiperSlide className="mx-auto p-[50px]">
+        <div className="old min-h-[25rem] w-full rounded-[20px] p-[5%]">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="4.8rem"
@@ -168,7 +168,7 @@ export default function Slider() {
               d="M25 6H9a3 3 0 0 0-3 3v22a3 3 0 0 0 3 3h30a3 3 0 0 0 3-3v-8M24 34v8m6-30h12m-6-6v12M14 42h20"
             />
           </svg>
-          <p className="font-meduin text-[2rem] mt-[20px]">
+          <p className="font-meduin mt-[20px] text-[2rem]">
             <span>Desenvolvimento</span> de app’s, paginas para web, e-mail
             marketing, aplicações entre outros...
           </p>

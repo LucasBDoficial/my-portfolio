@@ -3,12 +3,12 @@ export default function Skills() {
     <>
       <section
         id="skl"
-        className=" w-full absolute mt-[30px] max-[900px]:text-center pb-[15%]"
+        className=" absolute mt-[30px] w-full pb-[15%] max-[900px]:text-center"
       >
         <h3 className="max-[500px]:hidden">Desenvolvedor -</h3>
 
-        <div className="flex space-x-10 ml-[25px] mt-[15px] max-[900px]:ml-0 max-[500px]:mt-[0] max-[1024px]:flex-col max-[1024px]:space-x-0">
-          <div className="flex space-x-10 items-center max-[900px]:justify-center">
+        <div className="ml-[25px] mt-[15px] flex space-x-10 max-[1024px]:flex-col max-[1024px]:space-x-0 max-[900px]:ml-0 max-[500px]:mt-[0]">
+          <div className="flex items-center space-x-10 max-[900px]:justify-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="3rem"
@@ -75,7 +75,7 @@ export default function Skills() {
             </svg>
           </div>
 
-          <div className="flex space-x-10 items-center max-[900px]:justify-center max-[1024px]:mt-[15px]">
+          <div className="flex items-center space-x-10 max-[1024px]:mt-[15px] max-[900px]:justify-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="3rem"
@@ -125,7 +125,7 @@ export default function Skills() {
 
         <h3 className="mt-[30px] max-[500px]:hidden">Designer -</h3>
 
-        <div className="flex space-x-10 ml-[25px] mt-[15px] items-center max-[900px]:justify-center max-[900px]:ml-0">
+        <div className="ml-[25px] mt-[15px] flex items-center space-x-10 max-[900px]:ml-0 max-[900px]:justify-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="3rem"
@@ -192,7 +192,7 @@ export default function Skills() {
 
         <h3 className="mt-[30px] max-[500px]:hidden">Informática -</h3>
 
-        <div className="flex space-x-10 ml-[25px] mt-[15px] items-center max-[900px]:justify-center max-[900px]:ml-0">
+        <div className="ml-[25px] mt-[15px] flex items-center space-x-10 max-[900px]:ml-0 max-[900px]:justify-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="3rem"
@@ -229,7 +229,7 @@ export default function Skills() {
         </div>
       </section>
 
-      <section id="exp" className=" w-full h-full absolute mt-[30px] hidden">
+      <section id="exp" className=" absolute mt-[30px] hidden h-full w-full">
         <div className="flex flex-col justify-center text-[1.5rem] max-[900px]:text-center">
           <p>2023-Atualmente -</p>
           <p className=" ml-[25px] mt-[15px] text-[1.5rem] max-[900px]:ml-[0px] max-[500px]:mt-[5px]">
@@ -240,11 +240,11 @@ export default function Skills() {
 
       <section
         id="ctf"
-        className=" w-full h-full absolute hidden max-[900px]:text-center"
+        className=" absolute hidden h-full w-full max-[900px]:text-center"
       >
         <h3 className="mt-[30px] max-[500px]:hidden">Danki Code -</h3>
 
-        <div className="flex flex-col space-y-3 ml-[25px] mt-[15px] text-[1.5rem] max-[500px]:mt-[30px] max-[900px]:ml-[0px]">
+        <div className="ml-[25px] mt-[15px] flex flex-col space-y-3 text-[1.5rem] max-[900px]:ml-[0px] max-[500px]:mt-[30px]">
           <p>Webmaster Front End Completo</p>
           <p>Front End Completo 2.0</p>
           <p>Web Design Express</p>
@@ -254,7 +254,7 @@ export default function Skills() {
 
         <h3 className="mt-[30px] max-[500px]:hidden ">Rocketseat -</h3>
 
-        <div className="flex flex-col ml-[25px] mt-[15px] text-[1.5rem] max-[500px]:mt-[5px] max-[900px]:ml-[0px]">
+        <div className="ml-[25px] mt-[15px] flex flex-col text-[1.5rem] max-[900px]:ml-[0px] max-[500px]:mt-[5px]">
           <p> Discover</p>
         </div>
       </section>

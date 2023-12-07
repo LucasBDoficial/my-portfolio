@@ -21,7 +21,7 @@ export default function Gallery() {
         alt="imagem de tinta"
         width={250}
         height={0}
-        className=" absolute top-0 left-0 z-0 animate-pulse opacity-5"
+        className=" absolute left-0 top-0 z-0 animate-pulse opacity-5"
       />
 
       <Image
@@ -29,13 +29,13 @@ export default function Gallery() {
         alt="imagem de tinta"
         width={250}
         height={0}
-        className=" absolute top-0 right-0 z-0 animate-pulse opacity-5"
+        className=" absolute right-0 top-0 z-0 animate-pulse opacity-5"
       />
 
-      <div className="flex flex-wrap justify-center mt-[100px] relative w-full max-[500px]:mt-[60px]">
+      <div className="relative mt-[100px] flex w-full flex-wrap justify-center max-[500px]:mt-[60px]">
         <TypeIt
           id="textd"
-          className=" w-full text-center px-[2%] text-white font-black text-[3.5rem] 
+          className=" w-full px-[2%] text-center text-[3.5rem] font-black text-white 
                         max-[844px]:mr-[50px] max-[768px]:mr-[0px] max-[768px]:text-center max-[600px]:h-[80px] "
         >
           Tansformando ideias em realidade

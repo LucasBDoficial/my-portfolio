@@ -6,7 +6,7 @@ export function Header() {
   return (
     <motion.div
       className="relative z-[100]
-        max-sm:-mt-4 max-sm:space-y-5 max-sm:flex max-sm:flex-col max-sm:place-items-center"
+        max-sm:-mt-4 max-sm:flex max-sm:flex-col max-sm:place-items-center max-sm:space-y-5"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, y: 25 }}
       transition={{
@@ -16,7 +16,7 @@ export function Header() {
     >
       <Link href="#">
         <h1
-          className="text-4xl absolute left-52 font-semibold 
+          className="absolute left-52 text-4xl font-semibold 
                 max-sm:static"
         >
           Lucas Bucalon
@@ -24,7 +24,7 @@ export function Header() {
       </Link>
 
       <div
-        className="flex absolute right-72 space-x-10 items-center
+        className="absolute right-72 flex items-center space-x-10
                 max-sm:static"
       >
         <Link href="https://github.com/LucasBDoficial">

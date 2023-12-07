@@ -18,12 +18,12 @@ export default function About() {
         alt="imagem de tinta"
         width={10000}
         height={0}
-        className=" absolute bottom-0 max-[500px]:bottom-[-15%] w-full min-[500px]:h-[200px] z-0 animate-pulse opacity-5"
+        className=" absolute bottom-0 z-0 w-full animate-pulse opacity-5 max-[500px]:bottom-[-15%] min-[500px]:h-[200px]"
       />
 
-      <div className="flex flex-wrap absolute z-10 max-[900px]:flex-col">
+      <div className="absolute z-10 flex flex-wrap max-[900px]:flex-col">
         <h1
-          className=" w-[100%] px-[2%] mx-auto text-center font-black text-[3.5rem] mt-[90px] 
+          className=" mx-auto mt-[90px] w-[100%] px-[2%] text-center text-[3.5rem] font-black 
                 max-[900px]:text-left max-[425px]:mt-[60px] max-[425px]:text-center"
         >
           Designer e Desenvolvedor{' '}
@@ -31,10 +31,10 @@ export default function About() {
         </h1>
 
         <div
-          className="w-[40%] h-[50%] p-[2%] mt-[15px] mx-auto rounded-[25px] trans 
+          className="trans mx-auto mt-[15px] h-[50%] w-[40%] rounded-[25px] p-[2%] 
                     max-[900px]:w-[80%] max-[500px]:w-[95%]"
         >
-          <span className="font-semibold text-[2.5rem]">Olá</span>
+          <span className="text-[2.5rem] font-semibold">Olá</span>
 
           <p className="ml-[20px] font-medium">
             Sou Lucas Bucalon, desenvolvedor front end, entusiasta em ux/ui
@@ -52,9 +52,9 @@ export default function About() {
           </p>
         </div>
 
-        <div className="w-[50%] flex flex-col mt-[50px] px-[2%] justify-center font-medium max-[900px]:w-full">
+        <div className="mt-[50px] flex w-[50%] flex-col justify-center px-[2%] font-medium max-[900px]:w-full">
           <div id="select" className="flex space-x-28 max-[900px]:m-auto ">
-            <h3 onClick={toggleSl} id="sl" className="cursor-pointer select">
+            <h3 onClick={toggleSl} id="sl" className="select cursor-pointer">
               Skills
             </h3>
             <h3 onClick={toggleXp} id="xp" className="cursor-pointer">
@@ -65,7 +65,7 @@ export default function About() {
             </h3>
           </div>
 
-          <div className="h-full w-full relative">
+          <div className="relative h-full w-full">
             <Skills />
           </div>
         </div>
