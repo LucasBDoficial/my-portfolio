@@ -1,41 +1,40 @@
-import './globals.css';
-import { Montserrat } from 'next/font/google';
+import './globals.css'
+import { Montserrat } from 'next/font/google'
 
-import { ReactNode } from 'react';
-import type { Metadata } from 'next';
+import { ReactNode } from 'react'
+import type { Metadata } from 'next'
 
-import { Header } from '@/app/components/Header';
-import { Navbar } from './components/Navbar';
+import { Header } from '@/app/components/Header'
+import { Navbar } from './components/Navbar'
 
 const montserrat = Montserrat({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Portfólio',
   description: 'Portfólio de Lucas Bucalon dev',
-  keywords:'portfólio, desenvolvedor, designer, react, trabalho',
-  classification:'trabalho',
-  category:'desenvolvedor',
-  creator:'Lucas Bucalon',
+  keywords: 'portfólio, desenvolvedor, designer, react, trabalho',
+  classification: 'trabalho',
+  category: 'desenvolvedor',
+  creator: 'Lucas Bucalon',
 }
 
-export default function RootLayout({children,}:{children: ReactNode}) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-
-    <html lang="pt-br">      
+    <html lang="pt-br">
       <head>
         <link rel="author" href="" />
 
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="robots" content="index, nofollow" />
 
-        <link rel="dns-prefetch" href="http://www.w3.org/2000/svg" /> 
+        <link rel="dns-prefetch" href="http://www.w3.org/2000/svg" />
         <link rel="preconnect" href="http://www.w3.org/2000/svg" />
       </head>
 
-      <body className={montserrat.className} >
+      <body className={montserrat.className}>
         <header>
-            <Header />
-            <Navbar />
+          <Header />
+          <Navbar />
         </header>
         {children}
       </body>
